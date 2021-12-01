@@ -1,0 +1,85 @@
+.body {
+  background-color: #0d1a2d;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bdy_phone {
+  background-color: #15273f;
+  width: 250px;
+  color: white;
+  border-radius: 10px;
+  position: relative;
+  left: 515px;
+  top: 100px;
+  height: 440px;
+}
+
+.bdy_phone img {
+  padding: 6px;
+  position: relative;
+  left: 13px;
+  top: 10px;
+  border-radius: 5px;
+}
+
+.h3 {
+  position: relative;
+  left: 21px;
+  top: -1px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.para {
+  font-size: 13px;
+  position: relative;
+  top: -6px;
+  left: 20px;
+}
+
+.para2 {
+  font-size: 13px;
+  position: relative;
+  top: -10px;
+  left: 20px;
+}
+
+.bottom img, .img {
+  position: relative;
+  left: -10px;
+  top: 28px;
+}
+
+.img2 img {
+  position: relative;
+  top: -7px;
+  left: 127px;
+}
+
+.bottom {
+  position: relative;
+  top: -40px;
+  border-bottom: 1px solid #354d6d;
+  width: 200px;
+  left: 24px;
+}
+
+.images img {
+  position: relative;
+  top: -32px;
+  left: 17px;
+  border-radius: 70px;
+}
+
+.images p {
+  position: relative;
+  left: 68px;
+  top: -78px;
+  font-size: 11px;
+}
+
+.images p span {
+  font-weight: bold;
+}
+/*# sourceMappingURL=challenge.css.map */
