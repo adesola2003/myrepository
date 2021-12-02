@@ -1,0 +1,1 @@
+document.getElementById("image").style.image.hover = "../images/Capture5.JPG"

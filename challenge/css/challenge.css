@@ -20,9 +20,19 @@
   left: 13px;
   top: 10px;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.bdy_phone img:hover {
+  color: #05a7bd;
+}
+
+.h3:hover {
+  color: #05a7bd;
 }
 
 .h3 {
+  cursor: pointer;
   position: relative;
   left: 21px;
   top: -1px;
@@ -46,6 +56,7 @@
 }
 
 .bottom img, .img {
+  cursor: pointer;
   position: relative;
   left: -10px;
   top: 28px;
@@ -80,6 +91,28 @@
 }
 
 .images p span {
+  cursor: pointer;
   font-weight: bold;
+}
+
+.images p span:hover {
+  color: #05a7bd;
+}
+
+@media screen and (max-width: 710px) {
+  .bdy_phone {
+    position: relative;
+    left: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    width: 100%;
+  }
+  .bdy_phone {
+    position: relative;
+    left: 70px;
+  }
 }
 /*# sourceMappingURL=challenge.css.map */
