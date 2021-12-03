@@ -1,0 +1,93 @@
+$body_color: rgb(13, 26, 45);
+$inner_bdy:  rgb(21, 39, 63);
+$inner_bdywidth: 335px;
+$myColor: white;
+$border_radius1: 13px;
+$position: relative;
+$position: absolute;
+
+$padding: 5px;
+$font_weight: bold;
+$tesxt_align: center;
+$font_family: Arial, Helvetica, sans-serif;
+$hover: rgb(5, 167, 189);
+
+
+
+
+    
+  
+ .second{
+    
+    font-family: $font_family;
+    width: $inner_bdywidth;
+    border-radius:$border_radius1;
+    border: 1px  solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+.second .second_img{
+    border-radius: $border_radius1;
+    
+}
+
+.second .h3{
+    font-weight: $font_weight;
+    text-align: $tesxt_align;
+
+}
+
+.second .p{
+    text-align: $tesxt_align;
+    font-size: 12px;
+}
+.do{
+    padding: $padding;
+    width: 270px;
+    height: 58px;
+    border-radius: $border_radius1;
+    margin-left: 27px;
+    background-color: rgb(248, 249, 254);
+}
+.do .img{
+    border-radius: 50px;
+    
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.do .p{
+    font-size: 13px;
+    margin-top: -38px;
+    margin-left: -85px;
+}
+.do a{
+    font-size: 12px;
+    color: rgb(0, 0, 197);
+   position: $position;
+   top: -38px;
+    margin-left: 220px;
+    
+}
+button{
+    background-color: rgb(62, 51, 205);
+    border: none;
+    padding: 12px;
+    border-radius: $border_radius1;
+    color: whitesmoke;
+    width: 270px;
+    margin-left: 30px;
+    text-align: center;
+}
+.p2{
+    border-radius: $border_radius1;
+    font-size: 13px;
+    text-align: center; 
+}
+
+
+
+
+
+
+    
