@@ -27,6 +27,10 @@
   color: #05a7bd;
 }
 
+#image2 {
+  display: none;
+}
+
 .h3:hover {
   color: #05a7bd;
 }
@@ -106,6 +110,14 @@
   }
 }
 
+#image {
+  display: none;
+}
+
+#image2 {
+  display: block;
+}
+
 @media screen and (max-width: 480px) {
   body {
     width: 100%;
@@ -113,6 +125,9 @@
   .bdy_phone {
     position: relative;
     left: 70px;
+  }
+  #image2 {
+    display: none;
   }
 }
 /*# sourceMappingURL=challenge.css.map */

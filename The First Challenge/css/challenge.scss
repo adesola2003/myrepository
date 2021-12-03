@@ -40,6 +40,9 @@
     .bdy_phone img:hover{
         color: $hover;
     }
+    #image2{
+        display: none;
+    }
         
     .h3:hover{
         color: $hover;
@@ -120,6 +123,12 @@
         left: 200px;
     }
    }
+   #image{
+    display: none;
+}
+#image2{
+    display: block;
+}
    @media screen and (max-width:480px){
        body{
            width: 100%;
@@ -128,5 +137,8 @@
         position: $position;
         
         left: 70px;
+    }
+    #image2{
+        display: none;
     }
    }
