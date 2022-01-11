@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="css/index.scss
+  ">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body style="background-color: black;">
+
+    <div class="main_div">
+      <div class="imgss">
+        <img src="images/logo.svg">
+      </div>
+      <div class="div1">
+        <div class="imgs">
+          <img src="images/logo.svg">
+        </div>
+
+        <h1><span class="sp">WE'RE</span><br> COMING <br> SOON</h1>
+        <p class="p">Hello fellow shoppers! We're currently building our new<br> fashion store. 
+          Add your email below to stay up-to-date with <br> announcements and our launch deals.<p>
+            <p class="m">Hello fellow shoppers! We're currently building<br> our new fashion store. 
+              Add your email below <br> to stay up-to-date with  announcements and our <br> launch deals.<p>
+                
+            <input type="email" placeholder="Email Address" required onblur="validateP(this)"><button><img src="images/icon-arrow.svg"> </button><img class="erro" id="erros" src="images/icon-error.svg"><span id="mnumber" style="color: red;"></span><br><br>
+            
+           
+      </div>
+      <div class="div2">
+        <img class="des" src="images/hero-desktop.jpg">
+        <img class="hero" src="images/hero-mobile.jpg">
+      </div>
+    </div>
+
+  <footer>
+    <p class="attribution" style="color: white;">
+      Challenge by <a style="color: antiquewhite;" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a style="color: antiquewhite;" href="#">OLASEHINDE MARY OLUWAKANYINSOLA</a>.
+    </p>
+  </footer>
+</body>
+<script>
+   
+  function validateP(pass) {
+   let password_value = pass.value;
+    
+
+if(password_value == ""){
+document.getElementById('mnumber').innerHTML=" Email can not be empty!"
+document.getElementById('erros').style.display = "block";
+document.getElementById('erros').style.position = "relative";
+document.getElementById('erros').style.top = "-30px"
+document.getElementById('erros').style.left= "150px"
+}else if(password_value.length < 11){
+document.getElementById('mnumber').innerHTML=" Please provide a valid email"
+};
+
+
+document.getElementById('erros').style.display = "block";
+document.getElementById('mnumber').style.color ="red";
+
+document.getElementById('mnumber').style. marginLeft ="10px";
+document.getElementById('mnumber').style. position ="relative";
+document.getElementById('mnumber').style. top ="-25px";
+
+document.getElementById('mnumber').style. borderRadius ="3px";
+document.getElementById('mnumber').style. padding ="3px";
+};
+
+
+</script>
+</html>
