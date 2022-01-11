@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/index.css">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+    <div class="main_div">
+      <div class="first_div">
+        <img class="logo" src="images/logo.svg">
+        <p class="p">We are launching <b>soon!</b></p>
+        <p class="s"> Subscribe and get notified</p>
+
+        <input type="text" placeholder="Your email address" id="en"> <button style="cursor: pointer;" class="button"  required onblur="validateP(this)">Notify Me</button> <br><span id="spn"> </span>
+
+
+
+
+        <input class="input" type="text" placeholder="Your email address" id="ens"><br><span id="spns"> </span> <button style="cursor: pointer;" class="buttons"  required onblur="validate(this)">Notify Me</button> <br><span id="spn"> </span>
+
+
+
+
+        
+      </div>
+      <div class="second_div">
+        <img class="op" src="images/illustration-dashboard.png">
+      </div>
+      <div class="third_div">
+        <div class="bottom">
+          <img class="img6" src="images/icon-facebook.svg">
+          <img class="img3" src="images/icon-twitter.svg">
+          <img class="img4" src="images/icon-pinterest.svg">
+        </div>
+        <p class="copy">&copy; Copyright Ping. All rights reserved.</p>
+      </div>
+    </div>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Olasehinde Mary Oluwakanyinsola</a>.
+    </p>
+  </footer>
+</body>
+<script>
+  function validateP(pass) {
+    let zro = "email@email/com"
+
+   let password_value = pass.value;
+  
+
+if(password_value = zro){
+       document.getElementById("spn").innerHTML = "Please provide a valid email address";
+       document.getElementById("spn").style.color = "red";
+       document.getElementById("spn").style.fontSize = "11px";
+       document.getElementById("spn").style.marginLeft = "320px";
+       document.getElementById("en").style.border = "1px solid red";
+    }else{
+      alert("fcgvmb,.unj")
+    }
+  }
+
+
+  function validate(pass) {
+    let zro = "email@email/com"
+
+   let password_value = pass.value;
+  
+
+if(password_value = zro){
+       document.getElementById("spns").innerHTML = "Please provide a valid email address";
+       document.getElementById("spns").style.color = "red";
+       document.getElementById("spns").style.fontSize = "11px";
+       document.getElementById("spns").style.marginLeft = "80px";
+       document.getElementById("spns").style.marginTop = "-80px";
+       document.getElementById("ens").style.border = "1px solid red";
+    }else{
+      alert("fcgvmb,.unj")
+    }
+  }
+</script>
+</html>
