@@ -1,0 +1,365 @@
+$mobile: 375px;
+$desktop: 1440px;
+$font: 15px;
+$primary-main: hsl(300, 43%, 22%);
+$primary-main2: hsl(333, 80%, 67%);
+$font:  Arial, Helvetica, sans-serif;
+$other-one: hsl(303, 10%, 53%);
+$other-two: hsl(300, 24%, 96%);
+$other-three: hsl(0, 0%, 100%);
+$font-weights: 400;
+$font-weights2:500;
+$font-weights3:700;
+
+
+body{
+    font-family: $font;
+    padding: 0px;
+    margin: 0px;
+}
+.red{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+    .main_div{
+        width: 1000px;
+        height: 500px;
+        //border: 2px solid black; 
+        position: relative;
+        left: 150px;
+        top: 90px;
+    }
+  
+    .h2{
+        color: $primary-main;
+        width: 260px;
+        font-size: 36px;
+        position: relative;
+        top: 5px;
+        left: 30px;
+    }
+
+    .p{
+        color: $other-one;
+        width: 280px;
+        font-size: 10px;
+        position: relative;
+        top: -20px;
+        left: 30px;
+    }
+    button{
+        width: 310px;
+        font-size: 11px;
+        background-color: $other-two;
+        color: $primary-main;
+        border: none;
+        padding: 10px;
+        border-radius: 6px;
+    }
+
+    .span{
+        padding-left: 20px;
+    }
+    .bot{
+        position: relative;
+        left: 550px;
+        top: -150px;
+    }
+
+    .bott{
+        position: relative;
+        left: 275px;
+        top: -100px;
+    }
+    
+
+    .botts{
+        position: relative;
+        left: 0;
+        top: -50px;
+    }
+
+.star{
+    width: 100%;
+    margin-top: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+    .colton{
+       // position: relative;
+       // left: 18px;
+        background-color: $primary-main;
+        border-radius: 6px;
+        width: 280px;
+        height: 150px;
+        
+        position: relative;
+        left: -80px;
+        top: -20px;
+    }
+    
+  .colton img{
+    width: 30px;
+    border-radius: 50px;
+    position: relative;
+    top: 26px;
+    left: 20px;
+}
+ .colton .ps{
+     color: $other-three;
+     font-size: 11px;
+     margin-left: 65px;
+     margin-top: -5px;
+ }
+ .colton .pv{
+    color: $primary-main2;
+    font-size: 10px;
+    margin-left: 65px;
+    margin-top: -10px;
+ }
+ .colton .we{
+     margin-top: 20px;
+    
+     opacity: 0.8;
+    color: $other-two;
+     font-size: 11px;
+     margin-left: 25px;
+ }
+    
+    .irene{
+        
+       
+         background-color: $primary-main;
+         border-radius: 6px;
+         width: 280px;
+         height: 150px;
+         
+         position: relative;
+         left: -60px;
+         top: -6px;
+     }
+     .irene img{
+        width: 30px;
+        border-radius: 50px;
+        position: relative;
+        top: 26px;
+        left: 20px;
+    }
+     .irene .ps{
+        color: $other-three;
+        font-size: 11px;
+        margin-left: 65px;
+        margin-top: -5px;
+     }
+     .irene .pv{
+        color: $primary-main2;
+        font-size: 10px;
+        margin-left: 65px;
+        margin-top: -10px;
+     }
+
+     .irene .we{
+        margin-top: 20px;
+       
+        opacity: 0.8;
+       color: $other-two;
+        font-size: 11px;
+        margin-left: 25px;
+    }
+
+    .anne{
+
+         background-color: $primary-main;
+         border-radius: 6px;
+         width: 280px;
+         height: 150px;
+         position: relative;
+         left: -40px;
+         top: 10px;
+     }
+     
+    .anne img{
+        width: 30px;
+        border-radius: 50px;
+        position: relative;
+        top: 26px;
+        left: 20px;
+    }
+    .anne .ps{
+        color: $other-three;
+        font-size: 11px;
+        margin-left: 65px;
+        margin-top: -5px;
+    }
+
+    .anne .pv{
+        color: $primary-main2;
+        font-size: 10px;
+        margin-left: 65px;
+        margin-top: -10px;
+     }
+     .anne .we{
+        margin-top: 20px;
+       
+        opacity: 0.8;
+       color: $other-two;
+        font-size: 11px;
+        margin-left: 25px;
+    }
+
+    .bottom{
+        width: 350px;
+      margin-left: 200px;
+      margin-top: -420px;
+    }
+
+    .pd{
+        display: none;
+    }
+    .bots{
+        display: none;
+    }
+
+    .bottss{
+        display: none;
+    }
+    .bos{
+        display: none;
+    }
+
+    @media screen and (max-width:375px) {
+
+        .h2{
+            color: $primary-main;
+            width: 260px;
+            font-size: 30px;
+            text-align: center;
+            position: relative;
+            top: -75px;
+            left: -100px;
+        }
+        .p{
+            display: none;
+        }
+        .pd{
+            display: block;
+            color: $other-one;
+            width: 350px;
+            font-size: 15px;
+            position: relative;
+            text-align: center;
+            top: -90px;
+            left: -130px;
+        }
+
+
+        button{
+            width: 310px;
+            font-size: 11px;
+            background-color: $other-two;
+            color: $primary-main;
+            border: none;
+            padding: 10px;
+            border-radius: 6px;
+        }
+    
+        .span{
+            padding-left: 20px;
+        }
+        .bot{
+            display: none;
+        }
+        .bots{
+            display: block;
+            position: relative;
+            left: -115px;
+            top: -80px;
+        }
+        .bott{
+            display: none;
+        }
+        .bottss{
+            display: block;
+            position: relative;
+            left: -115px;
+            top: -70px;
+        }
+        
+        .botts{
+            display: none;
+        }
+        .bos{
+            display: block;
+            position: relative;
+            left: -115px;
+            top: -50px;
+        }
+    
+        .span{
+            padding-left: 20px;
+            line-height: 1.6;
+        }
+
+        .star{
+            
+            width: 370px;
+            margin-top: 0;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        
+    .colton{
+        // position: relative;
+        // left: 18px;
+         background-color: $primary-main;
+         border-radius: 6px;
+         width: 320px;
+         height: 150px;
+         
+         position: relative;
+         left: -150px;
+         top: -20px;
+     }
+     
+        
+        .irene{
+        
+       
+            background-color: $primary-main;
+            border-radius: 6px;
+            width: 320px;
+            height: 150px;
+            
+            position: relative;
+            left: -150px;
+            top: -6px;
+        }
+
+
+
+
+
+        .anne{
+
+            background-color: $primary-main;
+            border-radius: 6px;
+            width: 320px;
+            height: 150px;
+            position: relative;
+            left: -150px;
+            top: 10px;
+        }
+        
+        .attribution{
+            margin-top: 220px;
+        }
+      
+    }
