@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/kings.css">
+    
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <header>
+        <div class="topnav">
+            
+            <a href="#"><div class="logout"><span><i class="fa fa-power-off" aria-hidden="true"></i>Logout</span></div></a>
+        </div>
+    </header>+Content<a href="#"><i class="fa fa-gear"></i><span>Site Settings<i class="fa fa-caret-down" aria-hidden="true"></i></span></a>
+
+    <input type="checkbox" id="check" class="inputcheck">
+    <label for="check"><i class="fa fa-bars" id="slide"></i>Dash</label>
+    
+    <div class="sideba" id="check">
+
+        <span><img src="uploads/admin/oga.JPG"></span>
+        <span><h1>Oyodele David</h1></span>
+        <a href="dashboard.html"><i class="fa fa-th-large"></i><span>Dashboard</span></a>
+        <a href="#"><i class="fa fa-users" aria-hidden="true"></i><span>Students</span></a>
+        <a href="#"><i class="fa fa-gear" id="dropdown" onclick="dropSettings()"></i><span>Site Settings<i class="fa fa-caret-down" aria-hidden="true"></i></span>
+        <a href="#" class="gvb" id="pid"><i class="fa fa-floppy-o" aria-hidden="true"></i>Post</a>
+        </a>
+       
+    </div>
+    <div class="container"><!--container START-->
+        
+       <div class="contents"><!--contents START-->
+        <div class="students_stat"><!--student_stat START-->
+            <div class="kg_stat">
+                <h2>KG Statistics</h2>
+                <i class="fa fa-line-chart" aria-hidden="true"></i>
+                <span>54<span> Students</span></span>
+            </div>
+            <div class="primary_stat">
+                <h2>Primary Statistics</h2>
+                <i class="fa fa-line-chart" aria-hidden="true"></i>
+                <span>54<span> Students</span></span>
+            </div>
+            <div class="secondary_stat">
+                <h2>Secondary Stat.</h2>
+                <i class="fa fa-line-chart" aria-hidden="true"></i>
+                <span>54<span> Students</span></span>
+            </div>
+        </div><!--student_stat END-->
+        <div class="table_container"><!--Table Container START-->
+        <div class="kg_table">
+            <table>
+                <caption> Recently Registered KG Students</caption>
+                <thead>
+                    <tr>
+                        <th>S/N</th>
+                        <th>Surname</th>
+                        <th>Other Names</th>
+                        <th>Gender</th>
+                        <th>DOB</th>
+                        <th>State Of Origin</th>
+                        <th>Phone Number</th>
+                        <th>Home Address</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td> 1</td>
+                    <td>Awal </td>
+                    <td>Fidelix</td>
+                    <td>Male</td>
+                    <td>2/8/2020</td>
+                    <td>Ekit</td>
+                    <td>08090869605</td>
+                    <td>11 Kaso road, Alagbado Lagos</td>
+                    </tr>
+                    <tr>
+                        <td> 2</td>
+                        <td>Odera </td>
+                        <td>Fidelix Tiwasavage</td>
+                        <td>Male</td>
+                        <td>2/8/2020</td>
+                        <td>Ekit</td>
+                        <td>08090869605</td>
+                        <td>11 Kaso road, Alagbado Lagos</td>
+                        </tr>
+
+                        <td> 3</td>
+                        <td>Odera </td>
+                        <td>Fidelix Tiwasavage</td>
+                        <td>Male</td>
+                        <td>2/8/2020</td>
+                        <td>Ekit</td>
+                        <td>08090869605</td>
+                        <td>11 Kaso road, Alagbado Lagos</td>
+                        </tr>
+
+                        <td> 4</td>
+                        <td>Odera </td>
+                        <td>Fidelix Tiwasavage</td>
+                        <td>Male</td>
+                        <td>2/8/2020</td>
+                        <td>Ekit</td>
+                        <td>08090869605</td>
+                        <td>11 Kaso road, Alagbado Lagos</td>
+                        </tr>
+
+                        <td> 5</td>
+                        <td>Odera </td>
+                        <td>Fidelix Tiwasavage</td>
+                        <td>Male</td>
+                        <td>2/8/2020</td>
+                        <td>Ekit</td>
+                        <td>08090869605</td>
+                        <td>11 Kaso road, Alagbado Lagos</td>
+                        </tr>
+
+                </tbody>
+            </table>
+        </div>
+        <div class="primary_table">
+            <table>
+                <caption> Recently Registered Primary Students</caption>
+                <thead>
+                    <tr>
+                        <th>S/N</th>
+                        <th>Surname</th>
+                        <th>Other Names</th>
+                        <th>Gender</th>
+                        <th>DOB</th>
+                        <th>State Of Origin</th>
+                        <th>Phone Number</th>
+                        <th>Home Address</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td> 1</td>
+                    <td>Awal </td>
+                    <td>Fidelix</td>
+                    <td>Male</td>
+                    <td>2/8/2020</td>
+                    <td>Ekit</td>
+                    <td>08090869605</td>
+                    <td>11 Kaso road, Alagbado Lagos</td>
+                    </tr>
+                    <tr>
+                        <td> 2</td>
+                        <td>Odera </td>
+                        <td>Fidelix Tiwasavage</td>
+                        <td>Male</td>
+                        <td>2/8/2020</td>
+                        <td>Ekit</td>
+                        <td>08090869605</td>
+                        <td>11 Kaso road, Alagbado Lagos</td>
+                        </tr>
+
+                        <td> 3</td>
+                        <td>Odera </td>
+                        <td>Fidelix Tiwasavage</td>
+                        <td>Male</td>
+                        <td>2/8/2020</td>
+                        <td>Ekit</td>
+                        <td>08090869605</td>
+                        <td>11 Kaso road, Alagbado Lagos</td>
+                        </tr>
+
+                        <td> 4</td>
+                        <td>Odera </td>
+                        <td>Fidelix Tiwasavage</td>
+                        <td>Male</td>
+                        <td>2/8/2020</td>
+                        <td>Ekit</td>
+                        <td>08090869605</td>
+                        <td>11 Kaso road, Alagbado Lagos</td>
+                        </tr>
+
+                        <td> 5</td>
+                        <td>Odera </td>
+                        <td>Fidelix Tiwasavage</td>
+                        <td>Male</td>
+                        <td>2/8/2020</td>
+                        <td>Ekit</td>
+                        <td>08090869605</td>
+                        <td>11 Kaso road, Alagbado Lagos</td>
+                        </tr>
+
+                </tbody>
+            </table>
+        </div>
+        <div class="secondary_table">
+            <table>
+                <caption> Recently Registered Secondary Students</caption>
+                <thead>
+                    <tr>
+                        <th>S/N</th>
+                        <th>Surname</th>
+                        <th>Other Names</th>
+                        <th>Gender</th>
+                        <th>DOB</th>
+                        <th>State Of Origin</th>
+                        <th>Phone Number</th>
+                        <th>Home Address</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td> 1</td>
+                    <td>Awal </td>
+                    <td>Fidelix</td>
+                    <td>Male</td>
+                    <td>2/8/2020</td>
+                    <td>Ekit</td>
+                    <td>08090869605</td>
+                    <td>11 Kaso road, Alagbado Lagos</td>
+                    </tr>
+                    <tr>
+                        <td> 2</td>
+                        <td>Odera </td>
+                        <td>Fidelix Tiwasavage</td>
+                        <td>Male</td>
+                        <td>2/8/2020</td>
+                        <td>Ekit</td>
+                        <td>08090869605</td>
+                        <td>11 Kaso road, Alagbado Lagos</td>
+                        </tr>
+
+                        <td> 3</td>
+                        <td>Odera </td>
+                        <td>Fidelix Tiwasavage</td>
+                        <td>Male</td>
+                        <td>2/8/2020</td>
+                        <td>Ekit</td>
+                        <td>08090869605</td>
+                        <td>11 Kaso road, Alagbado Lagos</td>
+                        </tr>
+
+                        <td> 4</td>
+                        <td>Odera </td>
+                        <td>Fidelix Tiwasavage</td>
+                        <td>Male</td>
+                        <td>2/8/2020</td>
+                        <td>Ekit</td>
+                        <td>08090869605</td>
+                        <td>11 Kaso road, Alagbado Lagos</td>
+                        </tr>
+
+                        <td> 5</td>
+                        <td>Odera </td>
+                        <td>Fidelix Tiwasavage</td>
+                        <td>Male</td>
+                        <td>2/8/2020</td>
+                        <td>Ekit</td>
+                        <td>08090869605</td>
+                        <td>11 Kaso road, Alagbado Lagos</td>
+                        </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+    
+    </div><!--Table Container END-->
+
+
+       </div><!--contents END-->
+    
+    </div><!--container END-->
+
+    
+  <script type="text/javascript" src="js/controls.js"></script>  
+</body>
+</html>

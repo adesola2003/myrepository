@@ -1,0 +1,141 @@
+body{font-size: 100%;}
+h1{color: orange;}
+h2{background-color: black;color: white;}
+p{color: blue;}
+select{color: purple;}
+fieldset{color: rgba(235, 32, 66, 0.911);}
+body{
+    background-color: tomato;
+     background-image:url("../images/text.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+     background-size: cover;
+    }
+ .bolu{
+    font-size: 48px;
+    text-shadow: 2px 3px 5px red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 100;
+    font-variant: small-caps; 
+    font-size: 2.75em; 
+    text-align: center;
+}
+h1{
+    text-transform: capitalize;
+   background-color: violet;
+   letter-spacing: 5px;
+   font-size: 48px;
+   text-shadow: 2px 3px 5px red;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+}
+a:link{
+    color:black;
+    text-decoration: none;
+    font-size: 2em;
+    background-color: red;
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+a:hover{
+    color: red;
+    background-color: black;
+    padding: 5px 8px;
+    border-radius: 8px;
+    border: 2px solid rgb(19, 6, 131);
+}
+a:visited{
+    color:rebeccapurple;
+    background-color: rgb(70, 247, 16);
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+a:active{
+    color: powderblue;
+    background-color:orchid;
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+select{
+    width: 100px;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: violet;
+}
+select option{
+    margin: 15px;
+    background-color: tomato;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    display: inline;
+    text-decoration: none;
+}
+input{
+    background-color: burlywood;
+    color: white;
+    width: 100%;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    background-color: #3CBC8D;
+    color: white;
+}
+input[type="number"]{
+    border: none;
+    border-bottom: 2px solid red;
+}
+/*.bisi{
+    background-image: 
+    url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-color: white;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 130px;
+}*/
+textarea{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+p{
+    background-color: blue;
+}
+img{
+    border: 5px solid red;
+}
+img{
+    opacity: 0.5;    
+}
+img:hover{
+    opacity: 1.0;
+}
+input[type=reset],input[type=submit]{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 4px 2px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+}

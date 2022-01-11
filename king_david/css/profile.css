@@ -1,0 +1,19 @@
+.foo{
+    width: 350px;
+    height: 200px;
+    position: relative;
+    top: 55px;
+    left: 430px;
+    border-radius: 10px;
+    background-color: gray;
+    border: 2px solid gray;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: relative;
+    
+    left: 475px;
+}
+

@@ -1,0 +1,914 @@
+body{
+    margin: 0; padding: 0;
+}
+.bdy_wrap{
+    margin: 0; padding: 0; width: 100%;
+}
+
+
+.droptn{
+    color: white;
+  
+    border: none;
+}
+
+
+.bg-oy{
+    background-color: white;
+    color: black;
+
+  }
+.bg-oy a:hover{
+    color: blue;
+  }
+  .bio{
+      background-color: blue;
+      color: white;
+    position: fixed;
+    top: 83px;
+    z-index: 5;
+}
+
+.bio .bg-oy :hover{
+    background-color: blue;
+    color: white;
+}
+
+.bg-mi{
+    background-color:  white;
+    
+    position: fixed;
+    z-index: 5;
+   }
+
+   .bg-mo{
+    background-color:  white;
+    color: black;
+   }
+
+.start{
+    position: relative;
+    top: 58px;
+}
+
+
+   .banner{
+    width: 100%; 
+    padding: 0; margin: 0;
+    position: relative;
+}
+.banner img{
+    width: 100%; text-align: center;
+}
+.banner h3{
+    position: absolute; padding-left: 22px;
+    top: 40%; text-align: center;
+    font-size: 50px; text-shadow: 1px 1px rgb(89, 89, 248);background-color: rgba(0, 0, 0, 0.2);
+    display: none;
+}
+.banner p{
+   position: absolute; width: 100%;
+   top: 49%; text-align: center;
+   font-size: 52px; text-shadow: 1px 1px rgb(89, 89, 248);
+   display: none;
+}
+.addition{
+    width: 100%;
+    padding: 10px; margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    text-align: center;
+
+    
+    height: 230px;
+}
+ol li{
+    list-style-type: none;
+}
+.addition .work{
+    text-align: left;
+    height: 350px;
+    width: 30%;
+    display: inline-block;
+    padding: 15px;
+    
+}
+.addition .who{
+   text-align: left;
+   height: 350px;
+   padding: 15px;
+   overflow-x: auto;
+   display: inline-block;
+   width: 30%;
+   position: relative;
+   left: 280px;
+   
+}
+.addition .core{
+    position: relative;
+    left: 150px;
+    text-align: left;
+}
+.m{
+    text-align: center;
+}
+.m a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.apply{
+    text-decoration: none;
+    
+   position: absolute;
+   top: 1260px;
+   left: 400px;
+   color: blue;
+   
+  }
+  .al{
+      text-decoration: none;
+      color: blue;
+  }
+  .but{
+      background-color: rgb(145, 143, 143);
+      position: relative;
+      left: 570px;
+  }
+  .app{
+    text-decoration: none;
+   color: white;
+  }
+   .app:hover{
+    color: tomato;
+  }
+.img{
+position: relative;
+opacity: 0.7;
+top: 110px;
+width: 1340px;
+height: 200px;
+border-radius: 7px;
+}
+
+
+
+.footer{
+    margin: 0; padding: 10px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 600px;
+    background-color: blue;
+    color:  white;
+    }
+
+
+    .ongoing{
+        position: relative;
+        top: 150px;
+        left: 170px;
+    }
+
+
+    .im{
+        width: 130px;
+      
+    }
+    span b{
+        color: blue;
+        font-size: 30px;
+    }
+
+
+
+
+
+
+
+
+
+    *{box-sizing: border-box;}
+    .slideshow-container{
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+
+    }
+    .myslides{
+        display: none;
+    }
+    .prev, .next{
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: black;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 3s ease-in;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    .next{
+        right: 0;
+    }
+
+    .prev:hover,.next:hover{
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .text{
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+
+    }
+    .sl{
+        position: relative;
+        top: 115px;
+    }
+
+    .numbertext{
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+   .active, .dot:hover{
+    background-color: #f2f2f2;
+    }
+    .dot{
+        cursor: pointer;
+        height: 5px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+    
+        display:inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+
+    .fade{
+        animation-name: fade;
+        animation-duration: 1.5s;
+
+    }
+   @keyframes fade {
+        from {opacity: 0.4;}
+        to {opacity: 1;}
+
+    }
+      text{
+    
+            text-align: justify;
+        }
+
+
+    @media only screen and (max-width:380px){
+        text{
+            font-size: 11px;
+            text-align: justify;
+        }
+    }
+
+    .butt {
+     
+        background-color: blue;
+       position: relative;
+       top: 220px;
+       left: 430px;
+       color: white;
+       font-size: 50px;
+       border-radius: 5px;
+      }
+
+      .butt a{
+        text-decoration: none;
+         background-color: blue;
+         color: white;
+      }
+      .im{
+          border-radius: 3px;
+      }
+      .fluid{
+          position: relative;
+          top: 300px;
+          border-radius: 5px;
+      }
+
+      .twl{
+        width: 360px;
+      position: relative;
+      top: 20px;
+      border-radius: 5px;
+  }
+  .twle{
+      width: 360px;
+      position: relative;
+      top: 20px;
+      border-radius: 5px;
+  }
+  .twe{
+      width: 360px;
+      position: relative;
+      top: 20px;
+      border-radius: 5px;
+  }
+  .butto{
+      width: 360px;
+      text-align: left;
+      border-radius: 5px;
+      background-color: blue;
+      color: white;
+    border: none;
+  }
+  .butto a{
+      background-color: blue;
+      color: white;
+      border: none;
+  }
+  .butt{
+      border: none;
+  }
+  .additio{
+    position: relative;
+    top: 400px;
+  width: 100%;
+  padding: 10px; margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  text-align: center;
+
+  
+  height: 230px;
+}
+
+ .firsth1 h2 {
+    font-size: 25px;
+  }
+.te{
+    display: none;
+}
+.ho{
+    width: 1100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:685px){
+   
+
+/*    input[type="text"]{
+        width: 90px;
+    height: 45px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url(../image/search.png);
+        background-repeat: no-repeat;
+        background-size: 30px 30px;
+        background-position: 10px 10px;
+        padding: 12px 20px 12px 40px;
+        transition: width 0.4s ease-in-out;
+
+    }
+    input[type="text"]:focus{
+        width: 80%;
+      }*/
+
+
+         
+
+
+
+ .ongoing{
+        position: relative;
+        top: 150px;
+        left: 20px;
+    }
+    
+
+
+    .im{
+        width: 70px;
+      
+    }
+    span b{
+        color: blue;
+        font-size: 20px;
+    }
+    
+
+   .banner{
+    width: 100%; 
+    padding: 0; margin: 0;
+    position: relative;
+}
+.banner img{
+    width: 100%; height: 100%; text-align: center;
+}
+.banner h3{
+    position: absolute; padding-left: 25px;
+    top: 20%; text-align: center;
+    font-size: 50px; text-shadow: 1px 1px rgb(89, 89, 248);
+    display: none;
+}
+.banner p{
+   position: absolute; width: 100%;
+   top: 44%; text-align: center; 
+   font-size: 47px; text-shadow: 1px 1px rgb(89, 89, 248);
+   display: none;
+}
+
+
+.our{
+    
+      background-color: rgb(227, 227, 250);
+        border: 1px solid white;;
+    
+    border-radius: 10px;
+}
+
+ol li{
+list-style-type: none;
+}
+.begin{
+   
+       background-color: rgb(227, 227, 250);;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.best{
+    
+       background-color: rgb(227, 227, 250);;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.apply{
+    position: relative;
+    top: 19px;
+    left: 80px;
+    color: rgb(1, 1, 241);
+}
+*/
+
+.un{
+    display: none;
+}
+.sa{
+    display: none;
+}
+.glo{
+    display: none;
+}
+.lif{
+    display: none;
+}
+
+.footer{
+    margin: 0; padding: 10px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 600px;
+    background-color: blue;
+    color:  white;
+    }
+
+    .apply{
+        text-decoration: none;
+        
+       position: absolute;
+       top: 1020px;
+       left: 180px;
+       color: blue;
+       
+      }
+      .app{
+        text-decoration: none;
+       color: white;
+      }
+       .app:hover{
+        color: tomato;
+      }
+      .but{
+          position: relative;
+          top: 200px;
+          left: 290px;
+      }
+    .img{
+        position: relative;
+        opacity: 0.7;
+        top: 300px;
+        width: 650px;
+        height: 200px;
+        border-radius: 7px;
+      }
+      h1{
+        font-size: 20px;
+      }
+
+
+      .one1{
+        position: relative;
+        top: 120px;
+      }
+
+      .one3{
+        position: relative;
+        top: 130px;
+      }
+      .butto{
+          width: 200px;
+          background-color: blue;
+          color: white;
+      }
+      .butto a{
+          background-color: blue;
+          color: white;
+      }
+
+        .butt {
+       
+        background-color: blue;
+       position: relative;
+       top: 180px;
+       left: 200px;
+       color: white;
+       font-size: 50px;
+      }
+
+      .butt a{
+        text-decoration: none;
+         background-color: blue;
+         color: white;
+      }
+
+      .fluid{
+        position: relative;
+        top: 200px;
+    }
+
+      .twl{
+          width: 198px;
+        position: relative;
+        top: 20px;
+    }
+    .twle{
+        width: 198px;
+        position: relative;
+        top: 20px;
+    }
+    .twe{
+        width: 198px;
+        position: relative;
+        top: 20px;
+    }
+
+    .additio{
+        position: relative;
+        top: 250px;
+      width: 100%;
+      padding: 10px; margin: 0;
+      display: flex;
+      flex-direction: row;
+      flex-flow: wrap;
+      text-align: center;
+  
+      
+      height: 230px;
+  }
+
+  .firsth1 h2 {
+    font-size: 17px;
+}
+.te{
+    display: none;
+}
+.ho{
+    width: 500px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:380px){
+   
+    
+    .img2{
+        width: 26px;
+    }
+    .brand2{
+        display: none;
+    }
+    .firsth1 h1{
+        font-size: 15px;
+    }
+    .bio{
+        background-color: blue;
+        color: white;
+      position: fixed;
+      top: 115px;
+      z-index: 5; 
+    }
+    .tex{
+       display: none;
+    }
+
+   /* input[type="text"]{
+        width: 90px;
+    height: 40px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url(../image/search.png);
+        background-repeat: no-repeat;
+        background-size: 30px 30px;
+        background-position: 10px 10px;
+        padding: 12px 20px 12px 40px;
+        transition: width 0.4s ease-in-out;
+
+    }
+    input[type="text"]:focus{
+        width: 80%;
+      }*/
+
+
+      .banner{
+        width: 100%; 
+        padding: 0; margin: 0;
+        position: relative;
+    }
+    .banner img{
+        width: 100%; height: 100%; text-align: center;
+    }
+    .banner h3{
+        position: absolute; padding-left: 14px;
+        top: 23%; text-align: center;
+  font-size: 26px; text-shadow: 1px 1px rgb(104, 104, 248);background-color: rgba(0, 0, 0, 0.2);
+  display: none;
+    }
+    .banner p{
+       position: absolute; width: 100%;
+       top: 48%; text-align: center;
+   font-size: 23px; text-shadow: 1px 1px rgb(104, 104, 248);
+   display: none;
+    }
+
+    
+.start{
+    position: relative;
+    top: 110px;
+}
+
+
+     
+.ho{
+    width:295px ; 
+  }
+
+
+  .im{
+    width: 50px;
+  
+}
+
+.im2{display: none;}
+.im3{
+  display: none;
+}
+.im4{
+  width: 80px;
+}
+.im5{
+  width: 80px;
+}
+
+
+.footer{
+    margin: 0; padding: 10px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 600px;
+    background-color: blue;
+    color:  white;
+    }
+
+    .our{
+        width: 300px;
+           position: relative;
+           left: 40px;
+           background-color: rgb(227, 227, 250);
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+
+   .addition ol li{
+    list-style-type: none;
+   
+    }
+    .begin{
+        width: 300px;
+           position: relative;
+           top: 5px;
+           left: 40px;
+           background-color: rgb(227, 227, 250); 
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+    .best{
+        width: 300px;
+           position: relative;
+           top: 10px;
+           left: 40px;
+     background-color: rgb(227, 227, 250);
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+    .apply{
+        position: relative;
+        top: 19px;
+        left: 10px;
+        color: rgb(1, 1, 241);
+    }
+   
+    
+
+    .apply{
+        text-decoration: none;
+        
+       position: absolute;
+       top: 1040px;
+       left: 60px;
+       color: blue;
+       
+      }
+      .app{
+        text-decoration: none;
+       color: white;
+      }
+       .app:hover{
+        color: tomato;
+      }
+      .but{
+          position: relative;
+          top: 420px;
+          left: 130px;
+      }
+    .img{
+        position: relative;
+        opacity: 0.7;
+        top: 520px;
+        width: 370px;
+        height: 200px;
+        border-radius: 7px;
+
+      }
+      h1{
+        font-size: 20px;
+      }
+      .one1{
+          position: relative;
+          top: 160px;
+      }
+
+      .one3{
+        position: relative;
+        top: 170px;
+    }
+
+
+
+    .ongoing{
+        position: relative;
+        top: 120px;
+        left: 6px;
+    }
+    
+
+
+    .im{
+        width: 50px;
+      
+    }
+    span b{
+        color: blue;
+        font-size: 10px;
+    }
+
+    .additio{
+        position: relative;
+        top: 290px;
+    }
+
+
+
+    
+
+
+      .butt {
+       
+        background-color: blue;
+       position: relative;
+       top: 140px;
+       left: 70px;
+       color: white;
+       font-size: 30px;
+      }
+      .butto{
+        width: 350px;
+        
+    }
+      .butto5{
+          
+          position: relative;
+          top: 30px;
+      }
+      .butto6{
+          
+        position: relative;
+        top: 80px;
+    }
+      .butt a{
+        text-decoration: none;
+        background-color: blue;
+        color: white;
+         
+      }
+      .fluid{
+        position: relative;
+        top: 200px;
+    }
+
+  
+    .twl{
+        width: 350px;
+      position: relative;
+      top: 0;
+  }
+  .twle{
+      width: 350px;
+      position: relative;
+      top: 0;
+  }
+  .twe{
+      width: 350px;
+      position: relative;
+      top: 0;
+  }
+  .firsth1 {
+      position: relative;
+      top: 0;
+      left: 35px;
+  }
+  .te{
+      display: block;
+  }
+  
+}
+
+
+

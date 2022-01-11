@@ -1,0 +1,164 @@
+body{
+    margin: 0; padding: 0;
+   background-color: white;
+    color: black
+}
+strong{
+    font-size: 30px;
+}
+
+.bdy_wrap{
+    margin: 0; padding: 0; width: 100%;
+}
+.header{
+    margin: 0; padding: 10px; 
+    width: 100%; background-color: thistle; color: white;
+    text-align: center;
+}
+.logo, .comp_contact, .social, .btn_signup{
+    display:inline-block
+}
+.logo, .comp_contact, .social, .btn_signup{
+    display: inline-block;
+}
+.logo{width: 56%;}
+
+.social{width: 10%;
+text-align: right;}
+
+.f, .t, .ln{
+    font-size: 15px;
+    padding: 2px 5px; margin-right: 10px;
+}
+.f:hover, .t:hover, .ln:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.menu{
+    margin: 0; padding: 10px;
+    width: 100%; background-color: thistle; text-align: right;
+    border: none;
+}
+.menu ul{
+    width: 100%;
+    margin: 0; padding: 0;
+    list-style: none;
+    border: none;
+}
+.menu ul li{
+    display: inline; padding-right: 35px;
+}
+ .menu ul li a{
+     text-decoration: none; color: wheat;
+     
+ }
+ .menu ul li a:hover{
+     cursor: pointer; color: black;
+ }
+ .banner{
+    width: 100%; 
+    padding: 0; margin: 0;
+    position: relative;
+}
+.banner img{
+    width: 100%; text-align: center;
+}
+.banner h3{
+    position: absolute; padding-left: 25px;
+    top: 30%; text-align: center;
+    font-size: 50px; text-shadow: 1px 1px white;background-color: rgba(0, 0, 0, 0.2);
+}
+.banner p{
+   position: absolute; width: 100%;
+   top: 50%; text-align: center;
+   font-size: 52px; text-shadow: 1px 1px white;
+}
+.addition{
+    width: 100%;
+    padding: 10px; margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    text-align: center;
+    
+    height: 230px;
+}
+.addition .work{
+    text-align: left;
+    height: 350px;
+    width: 30%;
+    display: inline-block;
+    padding: 15px;
+    
+}
+.addition .who{
+   text-align: left;
+   height: 350px;
+   padding: 15px;
+   overflow-x: auto;
+   display: inline-block;
+   width: 30%;
+   position: relative;
+   left: 280px;
+   
+}
+.addition .core{
+    position: relative;
+    left: 150px;
+    text-align: left;
+}
+.m{
+    text-align: center;
+}
+.m a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.plan{
+    width: 100%;
+   /* position: relative;
+    top: 0;
+    left: 100px;*/
+    text-align: center;
+ }
+ .plan h1{
+     text-align: center;
+ }
+ 
+
+.IT{
+    text-align: center;
+}
+
+.footer{
+    margin: 0; padding: 0;
+    width: 100%;
+    text-align: center;
+    top: 100%;
+    background-color: thistle;
+    color: white;
+    }
+    .droptn{
+        color: black;
+        background-color: white;
+        border: none;
+    }
+
+
+    .bio{
+        position: fixed;
+        top: 65px;
+        z-index: 5;
+    }
+
+    .bio :hover{
+        background-color: thistle;
+    }
+
+    .bg-mi{
+        background-color:  white;
+        
+        position: fixed;
+        z-index: 5;
+       }

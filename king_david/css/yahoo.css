@@ -1,0 +1,107 @@
+strong{
+    color: blue;
+    margin: 15px;
+    font-size: 50px;
+}
+input[type=text]{
+    width: 450px;
+    height: 40px;
+}
+input[value="sign in"]{
+    position: relative;
+    left: 350px;
+}
+input[type="Email"]{
+    position: relative;
+    left:380px;
+}
+.fun{
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0;
+    height: 70px;
+    z-index: 6;
+}
+.sun{
+    position: relative;
+    top: 50px;
+    word-spacing: 50px;
+    margin: 20px;
+
+}
+.son{
+    position: relative;
+    top: 90px;
+    left: 20px;
+}
+.dou{
+    position: relative;
+    top: 20px;
+    left: 950px;
+}
+.bo{
+    position: relative;
+    top: 20px;
+    left: 920px;
+        column-count: 2;
+        column-gap: 1px;
+        width: 290px;
+      }
+      ul{
+        column-span: all;
+      }
+
+.sodi{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.wes{
+    position: relative;
+    top: 10px;
+    left: 70px;
+    width: 550;
+    /*height: 50px;*/
+}
+.dio{
+    position: relative;
+    bottom: 300px;
+    left: 1000px;
+}
+.kla{
+    position: relative;
+    bottom: 60px;
+    left: 840px;
+    word-spacing: 1px;
+    word-break: 40px;
+
+}
+.sla{
+    position: relative;
+    bottom: 270px;
+    left: 20px;
+    word-spacing: 1px;
+    word-break: 40px;
+}
+.wla{
+    position: relative;
+    bottom: 220px;
+    left: 230px;
+    word-spacing: 1px;
+    word-break: 40px;
+}
+.dla{
+    position: relative;
+    bottom: 165px;
+    left: 430px;
+    word-spacing: 1px;
+    word-break: 40px;
+}
+.fla{
+    position: relative;
+    bottom: 115px;
+    left: 630px;
+    word-spacing: 1px;
+    word-break: 40px;
+}
+

@@ -1,0 +1,425 @@
+body{
+    margin: 0; padding: 0;
+   background-color: white;
+    color: black;
+}
+strong{
+    font-size: 30px;
+}
+
+.bdy_wrap{
+    margin: 0; padding: 0; width: 100%;
+}
+.header{
+    margin: 0; padding: 10px; 
+    width: 100%; background-color: white; color: black;
+    text-align: center;
+}
+.logo, .comp_contact, .social, .btn_signup{
+    display:inline-block
+}
+.logo, .comp_contact, .social, .btn_signup{
+    display: inline-block;
+}
+.logo{width: 56%;}
+
+.social{width: 10%;
+text-align: right;}
+
+.f, .t, .ln{
+    font-size: 15px;
+    padding: 2px 5px; margin-right: 10px;
+}
+.f:hover, .t:hover, .ln:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.menu{
+    margin: 0; padding: 10px;
+    width: 100%; background-color: white; text-align: right;
+    border: none;
+}
+.menu ul{
+    width: 100%;
+    margin: 0; padding: 0;
+    list-style: none;
+    border: none;
+}
+.menu ul li{
+    display: inline; padding-right: 35px;
+}
+ .menu ul li a{
+     text-decoration: none; color: wheat;
+     
+ }
+ .menu ul li a:hover{
+     cursor: pointer; color: black;
+ }
+ .banner{
+    width: 100%; 
+    padding: 0; margin: 0;
+    position: relative;
+}
+.banner img{
+    width: 100%; text-align: center;
+}
+.banner h3{
+    position: absolute; padding-left: 25px;
+    top: 17%; text-align: center;
+    font-size: 50px; text-shadow: 2px 2px white;background-color: rgba(0, 0, 0, 0.2);
+}
+.banner p{
+   position: absolute; width: 100%;
+   top: 56%; text-align: center;
+   font-size: 52px; text-shadow: 2px 2px white;
+}
+
+    .addition{
+        width: 100%;
+        padding: 10px; margin: 0;
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        text-align: center;
+        
+        height: 230px;
+    }
+    .addition .work{
+        text-align: left;
+        height: 350px;
+        width: 30%;
+        display: inline-block;
+        padding: 15px;
+        
+    }
+    .addition .who{
+       text-align: left;
+       height: 350px;
+       padding: 15px;
+       overflow-x: auto;
+       display: inline-block;
+       width: 30%;
+       position: relative;
+       left: 280px;
+       
+    }
+    .addition .core{
+        position: relative;
+        left: 150px;
+        text-align: left;
+    }
+    .m{
+        text-align: center;
+    }
+    .m a{
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .plan{
+        width: 100%;
+       /* position: relative;
+        top: 0;
+        left: 100px;*/
+        text-align: center;
+     }
+     .plan h1{
+         text-align: center;
+     }
+     
+    
+    .IT{
+        text-align: center;
+    }
+    /* .bo:link{
+        color:orange;
+        text-decoration: none;
+        font-size: 30px;
+        background-color: white;
+        text-align: center;
+        border-radius: 8px;
+    }
+    .bo:hover{
+        color: white;
+        background-color: black;
+        text-align: center;
+        border-radius: 8px;
+        border: 2px solid gray;
+    }
+    a:visited{
+        color: orange;
+        background-color: white;
+        text-align: center;
+        border-radius: 8px;
+    }
+    a:active{
+        color: orange;
+        background-color: white;
+        text-align: center;
+        border-radius: 8px;
+    }*/
+    .footer{
+        margin: 0; padding: 0;
+        width: 100%;
+        text-align: center;
+        top: 100%;
+        background-color: purple;
+        color: white;
+        }
+        .droptn{
+            color: purple;
+            background-color: white;
+            border: none;
+        }
+        .sio{
+            width: 350px;
+            height: 60px;
+            border: none;
+        }
+        .sisi{
+            text-decoration: white;
+            border: none;
+        }
+        .bg-me{
+            background-color: purple;
+           }
+           .bg-mi{
+            background-color: w;
+            
+            position: fixed;
+            z-index: 5;
+           }
+           .bio{
+               background-color: purple;
+               color: white;
+               position: fixed;
+
+               top: 65px;
+               z-index: 5;
+           }
+           .bio .bg-oy :hover{
+            background-color: purple;
+        }
+          
+           .bg-oy{
+             background-color: white;
+             color: black;
+    
+           }
+          
+      .bg-oy a:hover{
+             color: black;
+           }
+           .bi{
+             display: none;
+           }
+           .ti{
+             display: none;
+           }
+         
+
+   
+
+    @media screen and (max-width:480px){
+
+
+   img{
+          width: 200px;
+          height: 250px;
+      }
+ 
+   .bio{
+    position: fixed;
+
+    top: 10px;
+    width: 280px;
+    z-index: 5;
+}
+.image img {
+    position: fixed;
+    top: 3px;
+    left: 10px;
+    z-index: 5;
+    width: 150px;
+    height: 40px;
+}
+
+
+.bg-mi{
+ background-color:  black;
+ height: 50px;
+ position: fixed;
+ z-index: 5;
+}
+
+
+    }
+ /*   @media screen and (max-width:1024px){
+
+
+        img{
+                  width: 250px;
+                  height: 230px;
+              }
+           
+           .bio{
+            position: fixed;
+           
+            top: 85px;
+            width: 100%;
+            z-index: 5;
+        }
+        .image img {
+            position: fixed;
+            top: 3px;
+            left: 10px;
+            z-index: 5;
+            width: 150px;
+            height: 40px;
+        }
+        
+        
+        .bg-mi{
+         background-color:  black;
+         height: 90px;
+         position: fixed;
+         z-index: 5;
+        }
+        
+       .signup{
+            background-color: rgb(190, 126, 250);
+            text-decoration: none;    
+    width: 10px;
+            }
+            .login{
+            background-color: rgb(190, 126, 250);
+            text-decoration: none;    
+            }
+            }
+        */
+        
+
+            @media screen and (max-width:685px){
+
+                input[type="text"]{
+                  width: 20%;
+                  box-sizing: border-box;
+                  border: 2px solid #ccc;
+                  border-radius: 4px;
+                  font-size: 16px;
+                  background-color: white;
+                  background-image: url(../image4/search.png);
+                  background-repeat: no-repeat;
+                  background-size: 30px 30px;
+                  background-position: 10px 10px;
+                  padding: 12px 20px 10px 40px;
+                  transition: width 0.4s ease-in-out;
+            
+              }
+              input[type="text"]:focus{
+                  width: 100%;
+              }
+             
+              span{
+                display: none;
+              }
+            
+            }
+
+
+
+            
+   @media screen and (max-width:380px){
+    body{
+      font-size:small ;
+    width: 380px;
+  }
+  .container-fluid .bio{
+    width: 380px;
+  }
+  
+   .brand2{
+      display: none;
+    }
+  .bio{
+    width: 350px;
+    height: 50px;
+    background-color: purple;
+    color: white;
+  position: fixed;
+  top: 120px;
+  z-index: 5;
+  }
+  .bio .bg-me{
+    background-color: purple;
+    color: white;
+  }
+  span{
+    display: none;
+  }
+   
+  .droptn{
+    color: white;
+  background-color: purple;
+    border: none;
+  }
+  
+  
+  .bg-oy{
+    background-color: white;
+    color: black;
+  
+  }
+  .bg-oy a:hover{
+    background-color: purple;
+    color:white;
+  }
+  
+  
+  .bio  .bg-oy :hover{
+    background-color: purple;
+    color: white;
+  }
+  
+  .bg-mi{
+    background-color:  white;
+    
+    position: fixed;
+    z-index: 5;
+   }
+  
+  
+      .size{
+        width: 80px;
+        height: 40px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 8px;
+        background-color: white;
+        background-image: url('image4/search.png');
+        background-repeat: no-repeat;
+        background-size: 18px 18px;
+        background-position: 10px 10px;
+        padding: 10px 16px 9px 27px;
+        transition: width 0.4s ease-in-out;
+  
+    }
+    .size:focus{
+        width: 100px;
+    }
+
+
+
+    .footer{
+        margin: 0; padding: 0;
+        width: 370px;
+        text-align: center;
+        position: relative;
+        top: 500px;
+        background-color: purple;
+        color:  white;
+        }
+
+}
+        

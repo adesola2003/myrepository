@@ -1,0 +1,1548 @@
+body{
+    margin: 0; padding: 0;
+   background-color: white;
+    color: thistle;
+}
+strong{
+    font-size: 30px;
+}
+
+.bdy_wrap{
+    margin: 0; padding: 0; width: 100%;
+}
+.header{
+    margin: 0; padding: 10px; 
+    width: 100%; background-color: thistle; color: black;
+    text-align: center;
+}
+.logo, .comp_contact, .social, .btn_signup{
+    display:inline-block
+}
+.logo, .comp_contact, .social, .btn_signup{
+    display: inline-block;
+}
+.logo{width: 56%;}
+
+.social{width: 10%;
+text-align: right;}
+
+.f, .t, .ln{
+    font-size: 15px;
+    padding: 2px 5px; margin-right: 10px;
+}
+.f:hover, .t:hover, .ln:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.menu{
+    margin: 0; padding: 10px;
+    width: 100%; background-color: white; text-align: right;
+    border: none;
+}
+.menu ul{
+    width: 100%;
+    margin: 0; padding: 0;
+    list-style: none;
+    border: none;
+}
+.menu ul li{
+    display: inline; padding-right: 35px;
+}
+ .menu ul li a{
+     text-decoration: none; color: white;
+     
+ }
+ .menu ul li a:hover{
+     cursor: pointer; color: white;
+ }
+
+
+.start{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 120px;
+    padding: 30px;
+    
+}
+.start h3{
+    position: absolute; padding-left: 25px;
+    top: 150px; text-align: center; padding-left: 40px;
+    font-size: 52px; text-shadow: 1px 1px white; color: purple; 
+}
+.start p{
+   position: absolute; width: 100%;
+   top: 280px; text-align: center; padding-left: 10px;
+   font-size: 52px; text-shadow: 1px 1px white; color: purple; 
+}
+
+.m{
+    text-align: center;
+}
+.m a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.plan{
+    width: 100%;
+   /* position: relative;
+    top: 0;
+    left: 100px;*/
+    text-align: center;
+ }
+ .plan h1{
+     text-align: center;
+ }
+ 
+
+.IT{
+    text-align: center;
+}
+
+.footer{
+    margin: 0; padding: 0;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 500px;
+    background-color: purple;
+    color:  white;
+    }
+    
+    .droptn{
+        color: white;
+      
+        border: none;
+    }
+   
+    
+    .bg-oy{
+        background-color: white;
+        color: black;
+
+      }
+ .bg-oy a:hover{
+        color: black;
+      }
+      .bio{
+          background-color: purple;
+          color: white;
+        position: fixed;
+        top: 65px;
+        z-index: 5;
+    }
+    
+    .bio .bg-oy :hover{
+        background-color: purple;
+        color: white;
+    }
+   
+    .bg-mi{
+        background-color:  white;
+        
+        position: fixed;
+        z-index: 5;
+       }
+
+ 
+
+
+
+
+   .image1{
+    max-width: 150px;
+    
+      position: relative;
+      top: 0;
+      
+      
+    }
+
+    .slide1{
+        position: absolute;
+left: 0;
+      }
+      .fade1{
+        animation-name: fading;
+        animation-duration: 70s;
+        animation-iteration-count: 10;
+        animation-direction: alternate;
+      }
+      @keyframes fading {
+          from{opacity: 0.4;}
+          to {opacity: 1;}
+      }
+
+      .slideshow{
+        max-width: 150px;
+        
+          position: relative;
+          top: 0;
+          
+          
+        }
+    
+        .slide{
+            position: absolute;
+    left: 580px;
+    
+          }
+          .fad{
+            animation-name: fading;
+            animation-duration: 70s;
+            animation-iteration-count: 10;
+            animation-direction: alternate;
+          }
+          @keyframes fading {
+              from{opacity: 0.4;}
+              to {opacity: 1;}
+          }
+
+          .slidesho{
+            max-width: 150px;
+            
+              position: relative;
+              top: 0px;
+              
+              
+            }
+        
+            .slid{
+                position: absolute;
+        left: 1070px;
+              }
+              .fa{
+                animation-name: fading;
+                animation-duration: 70s;
+                animation-iteration-count: 10;
+                animation-direction: alternate;
+              }
+              @keyframes fading {
+                  from{opacity: 0.4;}
+                  to {opacity: 1;}
+              }
+
+
+              .slidesh{
+                max-width: 150px;
+                
+                  position: relative;
+                  top: 100px;
+                  }
+            
+                .sli{
+                    position: absolute;
+            left: 750px;
+                  }
+                  .f{
+                    animation-name: fading;
+                    animation-duration: 70s;
+                    animation-iteration-count: 10;
+                    animation-direction: alternate;
+                  }
+                  @keyframes fading {
+                      from{opacity: 0.4;}
+                      to {opacity: 1;}
+                  }
+                  .lide{
+                    max-width: 150px;
+                    
+                      position: relative;
+                      top: 150px;
+                      }
+                
+                    .sl{
+                        position: absolute;
+                        left: 150px;
+                      }
+                      .fe{
+                        animation-name: fading;
+                        animation-duration: 70s;
+                        animation-iteration-count: 10;
+                        animation-direction: alternate;
+                      }
+                      @keyframes fading {
+                          from{opacity: 0.4;}
+                          to {opacity: 1;}
+                      }
+    
+
+                      .slideshow_contain{
+                        max-width: 150px;
+                        
+                          position: relative;
+                          top: 50px;
+                          }
+                    
+                        .snum{
+                            position: absolute;
+                    left: 350px;
+                          }
+                          .de{
+                            animation-name: fading;
+                            animation-duration: 70s;
+                            animation-iteration-count: 10;
+                            animation-direction: alternate;
+                          }
+                          @keyframes fading {
+                              from{opacity: 0.4;}
+                              to {opacity: 1;}
+                          }
+
+
+                        .image2{
+                            max-width: 150px;
+                            
+                              position: relative;
+                              top: 200px;
+                              }
+                        
+                            .slide2{
+                                position: absolute;
+                        left: 900px;
+                              }
+                              .fade2{
+                                animation-name: fading;
+                                animation-duration: 70s;
+                                animation-iteration-count: 10;
+                                animation-direction: alternate;
+                              }
+                              @keyframes fading {
+                                  from{opacity: 0.4;}
+                                  to {opacity: 1;}
+                              }  
+                              
+                              
+
+
+
+
+
+
+
+
+
+
+                              .image3{
+                                max-width: 150px;
+                                
+                                  position: relative;
+                                  top: 240px;
+                                  }
+                            
+                                .slide3{
+                                    position: absolute;
+                            left: 0;
+                                  }
+                                  .fade3{
+                                    animation-name: fading;
+                                    animation-duration: 70s;
+                                    animation-iteration-count: 10;
+                                    animation-direction: alternate;
+                                  }
+                                  @keyframes fading {
+                                      from{opacity: 0.4;}
+                                      to {opacity: 1;}
+                                  }  
+                                 .image4{
+                                    max-width: 150px;
+                                    
+                                      position: relative;
+                                      top: 300px;
+                                      }
+                                
+
+                             .slide4{
+                                        position: absolute;
+                                left: 1200px;
+                                      }
+                                 .fade4{
+                                        animation-name: fading;
+                                        animation-duration: 70s;
+                                        animation-iteration-count: 10;
+                                        animation-direction: alternate;
+                                      }
+                                   @keyframes fading {
+                                          from{opacity: 0.4;}
+                                          to {opacity: 1;}
+                                   } 
+                                      
+                                    
+                                      .image5{
+                                        max-width: 150px;
+                                        
+                                          position: relative;
+                                          top: 300px;
+                                          }
+                                    
+                                       .slide5{
+                                            position: absolute;
+                                    left: 350px;
+                                          }
+                                       .fade5{
+                                         animation-name: fading;
+                                        animation-duration: 70s;
+                                        animation-iteration-count: 10;
+                                       animation-direction: alternate;
+                                          }
+                                          @keyframes fading {
+                                         from{opacity: 0.4;}
+                                         to {opacity: 1;}
+                                          }  
+                                          
+                                          
+                                          .image6{
+                                            max-width: 150px;
+                                            
+                                              position: relative;
+                                            
+                                              }
+                                        
+                                            .slide6{
+                                                position: absolute;
+                                        left: 200px;
+                                              }
+                                              .fade6{
+                                                animation-name: fading;
+                                                animation-duration: 70s;
+                                                animation-iteration-count: 10;
+                                                animation-direction: alternate;
+                                              }
+                                              @keyframes fading {
+                                                  from{opacity: 0.4;}
+                                                  to {opacity: 1;}
+                                              }
+                                              
+                                              
+                                              .image7{
+                                                max-width: 150px;
+                                                
+                                                  position: relative;
+                                                  
+                                                  }
+                                            
+                                                .slide7{
+                                                    position: absolute;
+                                            left: 900px;
+                                                  }
+                                                  .fade7{
+                                                    animation-name: fading;
+                                                    animation-duration: 70s;
+                                                    animation-iteration-count: 10;
+                                                    animation-direction: alternate;
+                                                  }
+                                                  @keyframes fading {
+                                                      from{opacity: 0.4;}
+                                                      to {opacity: 1;}
+                                                  }
+                                                  
+                                                  
+                                                  .image8{
+                                                    max-width: 150px;
+                                                    
+                                                      position: relative;
+                                                      top: 170px;
+                                                      }
+                                                
+                                                    .slide8{
+                                                        position: absolute;
+                                                left: 460px;
+                                                      }
+                                                      .fade8{
+                                                        animation-name: fading;
+                                                        animation-duration: 70s;
+                                                        animation-iteration-count: 10;
+                                                        animation-direction: alternate;
+                                                      }
+                                                      @keyframes fading {
+                                                          from{opacity: 0.4;}
+                                                          to {opacity: 1;}
+                                                      }
+                                                                         
+                                                      .image9{
+                                                        max-width: 150px;
+                                                        
+                                                          position: relative;
+                                                          top: 230px;
+                                                          }
+                                                    
+                                                        .slide9{
+                                                            position: absolute;
+                                                    left: 600px;
+                                                          }
+                                                       .fade9{
+                                                            animation-name: fading;
+                                                            animation-duration: 70s;
+                                                            animation-iteration-count: 10;
+                                                            animation-direction: alternate;
+                                                          }
+         @keyframes fading {
+                                                              from{opacity: 0.4;}
+                                                              to {opacity: 1;}
+                                                          }                  
+                                                          
+                                                          
+
+
+
+
+
+
+
+
+                                                      
+         .image10{
+        max-width: 150px;
+                                                            
+      position: relative;
+     top: 410px;
+   }
+                                                        
+     .slide10{
+   position: absolute;
+   left: 50px;
+ }
+  .fade10{
+     animation-name: fading;
+     animation-duration: 70s;
+    animation-iteration-count: 10;
+    animation-direction: alternate;
+    }
+      @keyframes fading {
+     from{opacity: 0.4;}
+     to {opacity: 1;}
+      }
+      
+      
+   .image11{
+           max-width: 150px;
+                                                                
+       position: relative;
+          top: 380px;
+      }
+                                                            
+  .slide11{
+   position: absolute;
+   left: 800px;
+   }
+   .fade11{
+    animation-name: fading;
+    animation-duration: 70s;
+    animation-iteration-count: 10;
+    animation-direction: alternate;
+   }
+    @keyframes fading {
+    from{opacity: 0.4;}
+    to {opacity: 1;}
+    }     
+    
+    
+   .image12{
+   max-width: 150px;
+                                                        
+    position: relative;
+   top: 400px;
+    }
+                                                       
+  .slide12{
+    position: absolute;
+    left: 200px;
+   }
+  .fade12{
+   animation-name: fading;
+    animation-duration: 70s;
+   animation-iteration-count: 10;
+   animation-direction: alternate;
+    }
+    @keyframes fading {
+  from{opacity: 0.4;}
+    to {opacity: 1;}
+   }
+   
+   
+    .image13{
+       max-width: 150px;
+                                                                
+       position: relative;
+       top: 400px;                                                                
+        }
+                                                                    
+   .slide13{
+      position: absolute;
+    left: 1000px;
+      }
+     .fade13{
+    animation-name: fading;
+    animation-duration: 70s;
+    animation-iteration-count: 10;
+     }
+     @keyframes fading {
+    from{opacity: 0.4;}
+    to {opacity: 1;}
+     } 
+     
+     
+   .image14{
+    max-width: 150px;
+                                                                            
+    position: relative;
+        
+    top: 200px;  
+      }
+                                                                        
+    .slide14{
+    position: absolute;
+    left: 1080px;
+      }
+    .fade14{
+    animation-name: fading;
+    animation-duration: 70s;
+    animation-iteration-count: 10;
+    animation-direction: alternate;
+    }
+      @keyframes fading {
+    from{opacity: 0.4;}
+    to {opacity: 1;}
+     }  
+     
+     
+   .image15{
+   max-width: 150px;
+                                                                               
+   position: relative;
+   top: 420px;
+   }
+                                                                            
+    .slide15{
+    position: absolute;
+    left: 480px;
+     }
+    .fade15{
+    animation-name: fading;
+    animation-duration: 70s;
+    animation-iteration-count: 10;
+    animation-direction: alternate;
+    }
+    @keyframes fading {
+    from{opacity: 0.4;}
+    to {opacity: 1;}
+     } 
+     
+     
+ .image16{
+ max-width: 150px;
+                                                                              
+ position: relative;
+   top: 415px;
+  }
+                                                                                
+   .slide16{
+  position: absolute;
+   left: 660px;
+   }
+    .fade16{
+  animation-name: fading;
+ animation-duration: 70s;
+    animation-iteration-count: 10;
+     animation-direction: alternate;
+   }
+      @keyframes fading {
+    from{opacity: 0.4;}
+   to {opacity: 1;}
+   } 
+   
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+   @media screen and (max-width:685px){
+
+    input[type="text"]{
+      width: 20%;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      background-color: white;
+      background-image: url(../image4/search.png);
+      background-repeat: no-repeat;
+      background-size: 30px 30px;
+      background-position: 10px 10px;
+      padding: 12px 20px 10px 40px;
+      transition: width 0.4s ease-in-out;
+
+  }
+  input[type="text"]:focus{
+      width: 100%;
+  }
+ 
+  span{
+    display: none;
+  }
+
+
+
+
+
+  .image1{
+    max-width: 150px;
+    
+      position: relative;
+      top: 0;
+      
+      
+    }
+
+    .slide1{
+        position: absolute;
+left: 0;
+      }
+      .fade1{
+        animation-name: fading;
+        animation-duration: 70s;
+        animation-iteration-count: 10;
+        animation-direction: alternate;
+      }
+      @keyframes fading {
+          from{opacity: 0.4;}
+          to {opacity: 1;}
+      }
+
+      .slideshow{
+        max-width: 150px;
+        
+          position: relative;
+          top: 0;
+          
+          
+        }
+    
+        .slide{
+            position: absolute;
+    left: 500px;
+    
+          }
+          .fad{
+            animation-name: fading;
+            animation-duration: 70s;
+            animation-iteration-count: 10;
+            animation-direction: alternate;
+          }
+          @keyframes fading {
+              from{opacity: 0.4;}
+              to {opacity: 1;}
+          }
+
+          .slidesho{
+            max-width: 150px;
+            
+              position: relative;
+              top: 0px;
+              
+              
+            }
+        
+            .slid{
+                position: absolute;
+        left: 200px;
+              }
+              .fa{
+                animation-name: fading;
+                animation-duration: 70s;
+                animation-iteration-count: 10;
+                animation-direction: alternate;
+              }
+              @keyframes fading {
+                  from{opacity: 0.4;}
+                  to {opacity: 1;}
+              }
+
+
+              .slidesh{
+                max-width: 150px;
+                
+                  position: relative;
+                  top: 360px;
+                  }
+            
+                .sli{
+                    position: absolute;
+            left: 500px;
+                  }
+                  .f{
+                    animation-name: fading;
+                    animation-duration: 70s;
+                    animation-iteration-count: 10;
+                    animation-direction: alternate;
+                  }
+                  @keyframes fading {
+                      from{opacity: 0.4;}
+                      to {opacity: 1;}
+                  }
+                  .lide{
+                    max-width: 150px;
+                    
+                      position: relative;
+                      top: 150px;
+                      }
+                
+                    .sl{
+                        position: absolute;
+                        left: 150px;
+                      }
+                      .fe{
+                        animation-name: fading;
+                        animation-duration: 70s;
+                        animation-iteration-count: 10;
+                        animation-direction: alternate;
+                      }
+                      @keyframes fading {
+                          from{opacity: 0.4;}
+                          to {opacity: 1;}
+                      }
+    
+
+                      .slideshow_contain{
+                        max-width: 150px;
+                        
+                          position: relative;
+                          top: 50px;
+                          }
+                    
+                        .snum{
+                            position: absolute;
+                    left: 350px;
+                          }
+                          .de{
+                            animation-name: fading;
+                            animation-duration: 70s;
+                            animation-iteration-count: 10;
+                            animation-direction: alternate;
+                          }
+                          @keyframes fading {
+                              from{opacity: 0.4;}
+                              to {opacity: 1;}
+                          }
+
+
+                        .image2{
+                            max-width: 150px;
+                            
+                              position: relative;
+                              top: 250px;
+                              }
+                        
+                            .slide2{
+                                position: absolute;
+                        left: 300px;
+                              }
+                              .fade2{
+                                animation-name: fading;
+                                animation-duration: 70s;
+                                animation-iteration-count: 10;
+                                animation-direction: alternate;
+                              }
+                              @keyframes fading {
+                                  from{opacity: 0.4;}
+                                  to {opacity: 1;}
+                              }  
+                              
+                              
+
+
+
+
+
+
+
+
+
+
+                              .image3{
+                                max-width: 150px;
+                                
+                                  position: relative;
+                                  top: 240px;
+                                  }
+                            
+                                .slide3{
+                                    position: absolute;
+                            left: 0;
+                                  }
+                                  .fade3{
+                                    animation-name: fading;
+                                    animation-duration: 70s;
+                                    animation-iteration-count: 10;
+                                    animation-direction: alternate;
+                                  }
+                                  @keyframes fading {
+                                      from{opacity: 0.4;}
+                                      to {opacity: 1;}
+                                  }  
+                                 .image4{
+                                    max-width: 150px;
+                                    
+                                      position: relative;
+                                      top: 350px;
+                                      }
+                                
+
+                             .slide4{
+                                        position: absolute;
+                                left: 160px;
+                                      }
+                                 .fade4{
+                                        animation-name: fading;
+                                        animation-duration: 70s;
+                                        animation-iteration-count: 10;
+                                        animation-direction: alternate;
+                                      }
+                                   @keyframes fading {
+                                          from{opacity: 0.4;}
+                                          to {opacity: 1;}
+                                   } 
+                                      
+                                    
+
+  
+                                    
+                                   .image5{
+                                    max-width: 150px;
+                                    
+                                      position: relative;
+                                      top: 390px;
+                                      }
+                                
+                                   .slide5{
+                                        position: absolute;
+                                left: 330px;
+                                      }
+                                   .fade5{
+                                     animation-name: fading;
+                                    animation-duration: 70s;
+                                    animation-iteration-count: 10;
+                                   animation-direction: alternate;
+                                      }
+                                      @keyframes fading {
+                                     from{opacity: 0.4;}
+                                     to {opacity: 1;}
+                                      }  
+                                      
+                                     
+                                     
+                                     .image6{
+                                       max-width: 150px;
+                                       
+                                         position: relative;
+                                       
+                                         }
+                                   
+                                       .slide6{
+                                           position: absolute;
+                                   left: 200px;
+                                         }
+                                         .fade6{
+                                           animation-name: fading;
+                                           animation-duration: 70s;
+                                           animation-iteration-count: 10;
+                                           animation-direction: alternate;
+                                         }
+                                         @keyframes fading {
+                                             from{opacity: 0.4;}
+                                             to {opacity: 1;}
+                                         }
+                                         
+                                         
+                                         .image7{
+                                           max-width: 150px;
+                                           
+                                             position: relative;
+                                  top: 400px;
+                                             }
+                                       
+                                           .slide7{
+                                               position: absolute;
+                                       left: 10px;
+                                             }
+                                             .fade7{
+                                               animation-name: fading;
+                                               animation-duration: 70s;
+                                               animation-iteration-count: 10;
+                                               animation-direction: alternate;
+                                             }
+                                             @keyframes fading {
+                                                 from{opacity: 0.4;}
+                                                 to {opacity: 1;}
+                                             }
+                                             
+                                             
+                                             .image8{
+                                               max-width: 150px;
+                                               
+                                                 position: relative;
+                                                 top: 170px;
+                                                 }
+                                           
+                                               .slide8{
+                                                   position: absolute;
+                                           left: 460px;
+                                                 }
+                                                 .fade8{
+                                                   animation-name: fading;
+                                                   animation-duration: 70s;
+                                                   animation-iteration-count: 10;
+                                                   animation-direction: alternate;
+                                                 }
+                                                 @keyframes fading {
+                                                     from{opacity: 0.4;}
+                                                     to {opacity: 1;}
+                                                 }
+                                                                
+  
+  .image9{
+    display: none;
+  }
+  .image10{
+    display: none;
+  }
+  .image11{
+    display: none;
+  }
+  .image12{
+    display: none;
+  }
+  .image13{
+    display: none;
+  }
+  .image14{
+    display: none;
+  }
+  .image15{
+    display: none;
+  }
+  .image16{
+    display: none;
+  }
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+   @media screen and (max-width:380px){
+  body{
+    font-size:small ;
+  width: 380px;
+}
+.container-fluid .bio{
+  width: 380px;
+}
+
+ .brand2{
+    display: none;
+  }
+.bio{
+  width: 350px;
+  height: 50px;
+  background-color: purple;
+  color: white;
+position: fixed;
+top: 120px;
+z-index: 5;
+}
+.bio .bg-me{
+  background-color: purple;
+  color: white;
+}
+span{
+  display: none;
+}
+ 
+.droptn{
+  color: white;
+background-color: purple;
+  border: none;
+}
+
+
+.bg-oy{
+  background-color: white;
+  color: black;
+
+}
+.bg-oy a:hover{
+  background-color: purple;
+  color:white;
+}
+
+
+.bio  .bg-oy :hover{
+  background-color: purple;
+  color: white;
+}
+
+.bg-mi{
+  background-color:  white;
+  
+  position: fixed;
+  z-index: 5;
+ }
+
+
+    .size{
+      width: 80px;
+      height: 40px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 8px;
+      background-color: white;
+      background-image: url('image4/search.png');
+      background-repeat: no-repeat;
+      background-size: 18px 18px;
+      background-position: 10px 10px;
+      padding: 10px 16px 9px 27px;
+      transition: width 0.4s ease-in-out;
+
+  }
+  .size:focus{
+      width: 100px;
+  }
+
+  .start{
+    width: 100%;
+  height: 500px;
+    padding: 0; margin: 0;
+    position: relative;
+    top: 180px;
+}
+
+
+        .fah{
+   display: none;
+ }
+ .bi{
+   display: none;
+ }
+   .start .wel{
+     position: absolute;
+top: 250px; left: 0; padding: 0;
+font-size: 25px;  text-shadow: 1px 1px white; background-color: transparent;
+display: block;
+   }
+ .start .ti{
+     position: absolute;
+top: 320px; padding: 0; left: 28px;
+font-size: 20px;  text-shadow: 1px 1px white;  background-color: transparent;
+display: block;
+   }
+
+  
+   .footer{
+    margin: 0; padding: 0;
+    width: 370px;
+    text-align: center;
+    position: relative;
+    top: 500px;
+    background-color: purple;
+    color:  white;
+    }
+    
+
+
+
+
+
+    .image1{
+      max-width: 150px;
+      
+        position: relative;
+        top: 0;
+        
+        
+      }
+  
+      .slide1{
+          position: absolute;
+  left: 10px;
+        }
+        .fade1{
+          animation-name: fading;
+          animation-duration: 70s;
+          animation-iteration-count: 10;
+          animation-direction: alternate;
+        }
+        @keyframes fading {
+            from{opacity: 0.4;}
+            to {opacity: 1;}
+        }
+  
+        .slideshow{
+          max-width: 150px;
+          
+            position: relative;
+            top: 0;
+            
+            
+          }
+      
+          .slide{
+              position: absolute;
+      left: 150px;
+      
+            }
+            .fad{
+              animation-name: fading;
+              animation-duration: 70s;
+              animation-iteration-count: 10;
+              animation-direction: alternate;
+            }
+            @keyframes fading {
+                from{opacity: 0.4;}
+                to {opacity: 1;}
+            }
+  
+            .slidesho{
+              max-width: 150px;
+              
+                position: relative;
+                top: 0;
+                
+                
+              }
+          
+              .slid{
+                  position: absolute;
+          left: 280px;
+                }
+                .fa{
+                  animation-name: fading;
+                  animation-duration: 70s;
+                  animation-iteration-count: 10;
+                  animation-direction: alternate;
+                }
+                @keyframes fading {
+                    from{opacity: 0.4;}
+                    to {opacity: 1;}
+                }
+  
+  
+                .slidesh{
+                  max-width: 150px;
+                  
+                    position: relative;
+                    top: 360px;
+                    }
+              
+                  .sli{
+                      position: absolute;
+              left: 160px;
+                    }
+                    .f{
+                      animation-name: fading;
+                      animation-duration: 70s;
+                      animation-iteration-count: 10;
+                      animation-direction: alternate;
+                    }
+                    @keyframes fading {
+                        from{opacity: 0.4;}
+                        to {opacity: 1;}
+                    }
+                    .lide{
+                      max-width: 150px;
+                      
+                        position: relative;
+                      top: 180px;
+                        }
+                  
+                      .sl{
+                          position: absolute;
+                          left: 150px;
+                        }
+                        .fe{
+                          animation-name: fading;
+                          animation-duration: 70s;
+                          animation-iteration-count: 10;
+                          animation-direction: alternate;
+                        }
+                        @keyframes fading {
+                            from{opacity: 0.4;}
+                            to {opacity: 1;}
+                        }
+      
+  
+                        .slideshow_contain{
+                          max-width: 150px;
+                          
+                            position: relative;
+                            top: 350px;
+                            }
+                      
+                          .snum{
+                              position: absolute;
+                      left: 10px;
+                            }
+                            .de{
+                              animation-name: fading;
+                              animation-duration: 70s;
+                              animation-iteration-count: 10;
+                              animation-direction: alternate;
+                            }
+                            @keyframes fading {
+                                from{opacity: 0.4;}
+                                to {opacity: 1;}
+                            }
+  
+  
+                          .image2{
+                              max-width: 150px;
+                              
+                                position: relative;
+                                top: 200px;
+                                }
+                          
+                              .slide2{
+                                  position: absolute;
+                          left: 280px;
+                                }
+                                .fade2{
+                                  animation-name: fading;
+                                  animation-duration: 70s;
+                                  animation-iteration-count: 10;
+                                  animation-direction: alternate;
+                                }
+                                @keyframes fading {
+                                    from{opacity: 0.4;}
+                                    to {opacity: 1;}
+                                }  
+                                
+                                
+  
+  
+   
+
+                                .image3{
+                                  max-width: 150px;
+                                  
+                                    position: relative;
+                                    top: 180px;
+                                    }
+                              
+                                  .slide3{
+                                      position: absolute;
+                              left: 10px;
+                                    }
+                                    .fade3{
+                                      animation-name: fading;
+                                      animation-duration: 70s;
+                                      animation-iteration-count: 10;
+                                      animation-direction: alternate;
+                                    }
+                                    @keyframes fading {
+                                        from{opacity: 0.4;}
+                                        to {opacity: 1;}
+                                    }  
+                                   .image4{
+                                      max-width: 150px;
+                                      
+                                        position: relative;
+                                        top: 530px;
+                                        }
+                                  
+  
+                               .slide4{
+                                          position: absolute;
+                                  left: 150px;
+                                        }
+                                   .fade4{
+                                          animation-name: fading;
+                                          animation-duration: 70s;
+                                          animation-iteration-count: 10;
+                                          animation-direction: alternate;
+                                        }
+                                     @keyframes fading {
+                                            from{opacity: 0.4;}
+                                            to {opacity: 1;}
+                                     } 
+                                        
+                                      
+  
+    
+                                      
+                                     .image5{
+                                      max-width: 150px;
+                                      
+                                        position: relative;
+                                        top: 430px;
+                                        }
+                                  
+                                     .slide5{
+                                          position: absolute;
+                                  left: 280px;
+                                        }
+                                     .fade5{
+                                       animation-name: fading;
+                                      animation-duration: 70s;
+                                      animation-iteration-count: 10;
+                                     animation-direction: alternate;
+                                        }
+                                        @keyframes fading {
+                                       from{opacity: 0.4;}
+                                       to {opacity: 1;}
+                                        }  
+                                        
+                                       
+
+
+
+
+                                        .image6{
+                                          max-width: 150px;
+                                          
+                                            position: relative;
+                                          top: 500px;
+                                            }
+                                      
+                                          .slide6{
+                                              position: absolute;
+                                      left: 10px;
+                                            }
+                                            .fade6{
+                                              animation-name: fading;
+                                              animation-duration: 70s;
+                                              animation-iteration-count: 10;
+                                              animation-direction: alternate;
+                                            }
+                                            @keyframes fading {
+                                                from{opacity: 0.4;}
+                                                to {opacity: 1;}
+                                            }
+                                            
+                                            
+                                            .image7{
+                                              max-width: 150px;
+                                              
+                                                position: relative;
+                                     top: 590px;
+                                                }
+                                          
+                                              .slide7{
+                                                  position: absolute;
+                                          left: 280px;
+                                                }
+                                                .fade7{
+                                                  animation-name: fading;
+                                                  animation-duration: 70s;
+                                                  animation-iteration-count: 10;
+                                                  animation-direction: alternate;
+                                                }
+                                                @keyframes fading {
+                                                    from{opacity: 0.4;}
+                                                    to {opacity: 1;}
+                                                }
+                                                
+                                                
+                                                .image8{
+                                                  max-width: 150px;
+                                                  
+                                                    position: relative;
+                                                    top: 670px;
+                                                    }
+                                              
+                                                  .slide8{
+                                                      position: absolute;
+                                              left: 10px;
+                                                    }
+                                                    .fade8{
+                                                      animation-name: fading;
+                                                      animation-duration: 70s;
+                                                      animation-iteration-count: 10;
+                                                      animation-direction: alternate;
+                                                    }
+                                                    @keyframes fading {
+                                                        from{opacity: 0.4;}
+                                                        to {opacity: 1;}
+                                                    }
+                                                                   
+                                                    .image9{
+                                                      max-width: 150px;
+                                                      
+                                                        position: relative;
+                                                        top: 650px;
+                                                        }
+                                                  
+                                                      .slide9{
+                                                          position: absolute;
+                                                  left: 200px;
+                                                        }
+                                                    .fade9{
+                                                      animation-name: fading;
+                                                      animation-duration: 70s;
+                                                      animation-iteration-count: 10;
+                                                      animation-direction: alternate;
+                                                    }
+   @keyframes fading {
+                                                        from{opacity: 0.4;}
+                                                        to {opacity: 1;}
+                                                    }                  
+                                                    
+                                                    
+
+  .image10{
+   display: none;
+  }
+ .image11{
+ display: none;
+   }  
+  
+    .image12{
+      display: none;
+    }
+    .image13{
+      display: none;
+    }
+    .image14{
+      display: none;
+    }
+    .image15{
+      display: none;
+    }
+    .image16{
+      display: none;
+    }
+   }

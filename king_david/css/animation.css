@@ -1,0 +1,109 @@
+/*.olu{
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    border: blue;
+    border-radius: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+ animation-name: dami;
+ animation-duration: 5s;  
+ animation-delay: 2s;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+ animation-timing-function: ease-in-out;
+ animation-fill-mode: both;
+ animation-play-state: paused;
+}*/
+.olu{
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    border: blue;
+    border-radius: 50px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+  animation-name: dami;
+  animation-duration: 10s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+  animation-fill-mode: both;
+ }
+.sisi{
+    width: 200px;
+    height: 80px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-top-color: seagreen;
+     position: relative;
+    left: 50px;
+    top: 95px;
+}
+.bolu{
+    width: 200px;
+    height: 80px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-top-color: firebrick;
+    position: relative;
+    left: 340px;
+    top: 120px;
+}
+.sumi{
+    width: 250px;
+    height: 80px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-top-color: orchid;
+    position: relative;
+    left: 600px;
+    top: 150px;
+}
+.fam{
+    width: 250px;
+    height: 80px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-top-color: yellow;
+    position: relative;
+    left: 900px;
+    top: 200px;
+}
+/*.solu{
+    width: 120px;
+    height: 80px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-top-color: rgb(231, 17, 17);
+    position: relative;
+    left: 690px;
+    top: 240px;
+}
+/*@keyframes dami{
+0%{left:0; top:0; background-color: crimson;}
+25%{left:85%; top:0; background-color: green;}
+50%{left:85%; top:85%; background-color: purple;}
+75%{left:0; top:85%; right:85%; background-color: sienna;}
+100%{left:0; top:0; background-color: crimson;}
+}*/
+@keyframes dami{
+    0%{left:5%;  top:20px; background-color: crimson;}
+    10%{left:28%; top:20px; background-color: green;}
+    100%{left:35%; top:14%; background-color: yellowgreen;}
+    20%{left:37%; top:18%; background-color: fuchsia;}
+    30%{left:45%; top:30%; background-color: indigo;}
+    40%{left:50%; top:35%; background-color: indianred;}
+    50%{left:67%; top:40%; background-color: springgreen;}
+    60%{left:67; top:40%; background-color: fuchsia;}
+    70%{left:69; top: 55%; background-color: orange;}
+    80%{left:70%; top:55%;  background-color: yellow;}
+    90%{left:70%; top:55%; background-color: purple;}
+    /*100%{left:0; top:0; background-color: violet;}*/
+}
+
+
+

@@ -1,0 +1,56 @@
+body{
+    background-color: wheat;
+}
+h5{
+    text-indent: 50px;
+    word-spacing: 10px;
+    /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+    letter-spacing: 10px;
+}
+h1{
+    text-indent: 60px;
+    white-space: pre-wrap;
+    letter-spacing: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.wheat{
+    background-color: wheat;
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+h3{
+    text-indent: 50px;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+}
+.brown{
+    color: brown;
+    padding: 10px;
+}
+.white{
+    background-color: white;
+    letter-spacing: 5px;
+    width:20%;
+    height:20px;
+    position: relative;
+    right: 120px;
+    text-transform:lowercase;
+}
+.pink{
+    background-color: brown;
+    letter-spacing: 5px;
+    color: white;
+    width: 20%;
+    height:20px;
+    position: absolute;
+    left: 400px;
+}
+/*div{
+    display: block;
+    width: 100%;
+}*/
+.orange{
+    margin: 50px;
+    color: brown;
+}

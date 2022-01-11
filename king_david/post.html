@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="css/kings.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="topnav">
+            
+            <a href="#"><div class="logout"><span><i class="fa fa-power-off" aria-hidden="true"></i>Logout</span></div></a>
+        </div>
+    </header>+Content<a href="#"><i class="fa fa-gear"></i><span>Site Settings<i class="fa fa-caret-down" aria-hidden="true"></i></span></a>
+
+    <input type="checkbox" id="check">
+    <label for="check"><i class="fa fa-bars" id="slide"></i>Dash</label>
+    
+    <div class="sideba" id="check">
+
+        <span><img src="uploads/admin/oga.JPG"></span>
+        <span><h1>Oyodele David</h1></span>
+        <a href="#"><i class="fa fa-th-large"></i><span>Dashboard</span></a>
+        <a href="#"><i class="fa fa-users" aria-hidden="true"></i><span>Students</span></a>
+        <a href="#"><i class="fa fa-gear" id="dropdown" onclick="dropSettings()"></i><span>Site Settings<i class="fa fa-caret-down" aria-hidden="true"></i></span>
+        <a href="#" class="post" id="pid"><i class="fa fa-floppy-o" aria-hidden="true"></i>Post</a>
+        </a>
+       
+    </div>
+    <div class="postcontainer">
+        <form action="add.php" method="POST">
+        <div class="postupdates">
+            <select>
+                <option value="#"><span>Select the section to Edit</span></option>
+                <option value="about"><span>About</span></option>
+                <option value="PropreitorSpeech"><span>Propreitor Speech</span></option>
+                <option value="SchoolHistory"><span>School History</span></option>
+                <option value="OurVision"><span>Our Vision</span></option>
+                <option value="OurMission"><span>Our Mission</span></option>
+                <option value="OurPhilosophy"><span>Our Philosophy</span></option>
+                <option value="PTA"><span>PTA</span></option>
+                <option value="AccreditionAndAffiliations"><span>Accredition And Affiliations</span></option>
+               
+                
+                </option>
+                
+            </select>
+           
+
+            <textarea cols="100" rows="20">
+
+            </textarea>
+            <label for="myfile"> Select a File</label>
+            <input type="file" name="myfile">
+            <button type="submit" value="post">Post</button>
+
+        </div>
+    </form>
+
+    </div>
+    
+</body>
+</html>

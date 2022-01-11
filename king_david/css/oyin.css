@@ -1,0 +1,210 @@
+    /*h1{color: green; text-align: center;}
+         h2{background-color: black;color: white;}
+         p{color: blue;}
+         ol{color: purple;} 
+         ul{color: orangered;}
+     .mygreen{color: greenyellow;}
+     h3,h4{color: palegreen;}
+     *{background-color: crimson;}
+     /*{this is oyin.css}*/
+     body{
+         background-color: black;
+         padding: 0;
+        margin: 0;
+     }
+     .head{
+         color: white;
+        border: 3px double black; 
+        padding: 0;
+        margin: 0;
+    }
+     .begin{
+         background-color: green;
+         height: 50px;
+         padding: 15px;
+         text-align: center;
+        }
+        .menu{
+            background-color: grey;
+            height: 30px;
+            padding: 10px;
+            text-align: left;
+        }
+        div .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        div .dropbtn{
+            background-color: #4caf50;
+            color: white;
+            padding: 10PX;
+            border: none;
+            cursor: pointer;
+        }
+       div .dropdown-content{
+            position: absolute;
+            background-color: #050505;
+            min-width: 160px;
+            z-index: 1;
+            display:none;
+            padding: 15px;
+        }
+        div .dropdown-content a{
+            color: black;
+            padding: 3px 4px;
+            text-decoration: none;
+            display: block;
+        }
+       div .dropdown:hover .dropdown-content{ 
+                    display: block;
+        }
+
+       div .dropdown:hover .dropbtn{
+            background-color: #3e8e7d;
+        }
+        div .dropdown-content a:hover{
+            background-color: blueviolet;
+        }
+       /* .mypink{
+            list-style-type: none;
+            background-color: cadetblue;
+            text-align: center;
+            width: 300%;
+            height: 10px;
+            padding: 10px;
+            top:0;
+            background-color:green;
+            position: sticky;
+             top:50px; 
+             display: inline;                                        
+        }
+        .mypink li{
+            display: inline;
+            padding: 15px 20px;
+            color: white;}*/
+        .content{
+         background-color: black;
+        height: 500px;
+        text-align: center;
+        display: flex;
+         flex-direction: row;
+        flex-flow: wrap;
+        }
+         .note{
+         
+         height: 200px;
+         padding: 15px;
+        
+
+     }
+     .dad{
+    
+        height: 60px;
+        padding: 15px;
+        text-align: center;
+     } 
+    .left{
+        
+        height: 350px;
+        width: 30%;
+        display: inline-block;
+        padding: 15px;
+       /* float: left;
+        clear: both;*/
+      
+    }
+    /*.right{
+        background-color: rosybrown;
+        height: 330px;
+        width: 20%;
+        display: inline-block;
+        position: relative;
+        bottom: 10px;
+    }*/
+    .next{
+        color: white;
+        height: 350px;
+        padding: 15px;
+         overflow-x: auto;
+      /*  float: center;
+        clear: both;*/
+        display: inline-block;
+        width: 30%;
+    }
+    .center{
+color: white;
+        height: 350px;
+        padding: 15px;
+        overflow-x: auto;
+      /*  float: right;
+        clear: both;*/
+        display: inline-block;
+        width: 30%;
+    }
+    .end{
+    
+        height: 35px;
+        padding: 15px;
+        }
+    .links{
+        background-color: black;
+        height: 300px;
+        padding: 15px;
+    }
+    a:link{
+        color:black;
+        text-decoration: none;
+        font-size: 2em;
+        background-color: red;
+        padding: 5px 8px;
+        border-radius: 8px;
+    }
+    a:hover{
+        color: red;
+        background-color: black;
+        padding: 5px 8px;
+        border-radius: 8px;
+        border: 2px solid rgb(19, 6, 131);
+    }
+    a:visited{
+        color:rebeccapurple;
+        background-color: rgb(70, 247, 16);
+        padding: 5px 8px;
+        border-radius: 8px;
+    }
+    a:active{
+        color: powderblue;
+        background-color:orchid;
+        padding: 5px 8px;
+        border-radius: 8px;
+    }
+    .music{
+        background-color: grey;
+        height: 60px;
+        padding: 15px;
+    }
+    .video{
+        background-color: brown;
+        height: 400px;
+        padding: 15px;
+    }
+    .fun{
+        background-color: burlywood;
+        height: 45px;
+        padding: 15px;
+    }
+     .form{
+        background-color: rgb(128, 71, 99);
+        height: 45opx;
+        padding: 15px;
+     }
+     .you{
+        background-color: rgb(51, 66, 27);
+        height: 45px;
+        padding: 15px;
+     }
+     .table{
+      background-color: rgb(117, 93, 105);
+        height: 45opx;
+        padding: 15px;
+     }

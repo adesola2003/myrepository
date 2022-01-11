@@ -1,0 +1,84 @@
+.mygreen{
+    color: rgba(137, 43, 226, 0.938);
+    background-color: hsl(180 50% 20%);
+    border-color: cyan;
+    border-style: dotted;
+    border-width: 6px;
+    border-top-style: dashed;
+    border-bottom-style: solid;
+    border-left-style: dotted;
+    border-right-style: ridge;
+    border-radius: 50px;
+    background-color: black;
+     font-size: 80px;
+     margin: 20px;
+     text-decoration: unset;
+     text-align: center;
+     text-transform: capitalize;
+     letter-spacing: 5px;
+     font-size: 48px;
+    text-shadow: 2px 3px 5px red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    h2,h3{
+        color: yellow;
+        background-color: thistle;
+        text-align: center;
+        border: 5px solid olivedrab;
+       background-size: 100%;
+       background-repeat: no-repeat;
+}
+body{
+    background-color: tomato;
+     background-image:url("../images/text.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+     background-size: cover;
+    }
+    p{color:red; 
+        border-style: solid;
+        border-width: 6px;
+        border-color: cadetblue;
+        border-top-style: solid;
+        border-bottom-style: double;
+        border-left-style: dotted;
+        border-right-style: ridge;
+        border-radius: 50px;
+        background-color: black;
+         font-size: 80px;
+         margin: 20px;
+         text-indent: 50px;
+         word-spacing: 10px;
+         line-height: 1;
+         white-space: pre-wrap;
+     }
+        
+        ul{
+            color: turquoise;
+        background-color: violet;
+        border-color: skyblue;
+        border-style: dotted;
+        border-width: 6px;
+        border-top-style: dashed;
+        border-bottom-style: solid;
+        border-left-style: dotted;
+        border-right-style: ridge;
+        border-radius: 50px;
+        background-color: black;
+         font-size: 80px;
+         margin: 20px;
+         text-decoration: unset;
+         text-align: center;
+        }
+        .div2{
+            background-color: darkmagenta;
+            margin: 20px;
+            box-sizing: border-box;
+            text-align: justify;
+            direction: rtl;
+        }
+        img{
+            margin-right: 15px;
+        }
+        
