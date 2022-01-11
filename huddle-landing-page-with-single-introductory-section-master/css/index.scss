@@ -1,0 +1,231 @@
+$Mobile: 375px;
+$Desktop: 1440px;
+$Violet: hsl(257, 40%, 49%);
+$Soft-Magenta: hsl(300, 69%, 71%);
+$Weights1: 400;
+$Weights1: 600;
+$font_family: Arial, Helvetica, sans-serif;
+
+@media only screen and (max-width:1440px) {
+    
+
+body{
+    background-image: url(../images/bg-desktop.svg);
+    background-size: 1300px;
+    background-repeat: none;
+    background-color: $Violet;
+    font-family: $font_family;
+}
+.main_div{
+    width: 1200px;
+    height: 500px;
+    font-family: $font_family;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 30px;
+   
+}
+
+.first_div{
+    width: 700px;
+    height: 500px;
+   
+}
+.second_div{
+    width: 600px;
+    height: 500px;
+    
+}
+
+
+.img{
+    width: 150px;
+}
+.img2{
+    margin-top: 35px;
+    width: 600px;
+}
+.build{
+    color: white;
+    margin-left: 30px;
+    margin-top: 120px;
+    font-size: 30px;
+}
+.huddle{
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+    .button{
+        color: $Violet;
+        margin-left: 30px;
+        margin-top: 20px;
+        font-size: 13px;
+        padding: 9px;
+        width: 130px;
+        border-radius: 25px;
+        border: none;
+    }
+    .button:hover{
+        background-color: $Soft-Magenta;
+    }
+    .bottom{
+        margin-top: 140px;
+        margin-left: 440px;
+    }
+   .img3{
+       border: 1px solid white;
+       padding: 5px;
+       border-radius: 50px;
+       width: 10px;
+   }
+   .img3:hover{
+       color: $Soft-Magenta;
+       border: 1px solid $Soft-Magenta;
+
+   }
+   .img6{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50px;
+    width: 10px;
+}
+.img6:hover{
+    color: $Blue;
+    border: 1px solid $Soft-Magenta;
+ 
+ }
+
+.img4{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50px;
+    width: 10px;
+}
+.img4:hover{
+    color: $Blue;
+    border: 1px solid $Soft-Magenta;
+ 
+ }
+.attribution{
+    color: black;
+    margin-top: 25px;
+}
+.huddles{
+    display: none;
+}
+
+}
+
+
+@media only screen and (max-width: 375px) {
+    body{
+      
+        background-image: none;
+        background-color: $Violet;
+        font-family: $font_family;
+    }
+    .main_div{
+       
+        width: 370px;
+        height: 500px;
+        font-family: $font_family;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 30px;
+       
+    }
+    
+    .first_div{
+        background-image: url(../images/bg-mobile.svg);
+        background-repeat: none;
+        background-size: 375px;
+        width: 365px;
+        height: 500px;
+       
+    }
+    .second_div{
+        width: 365px;
+        height: 500px;
+        
+    }
+
+    
+.img{
+    width: 120px;
+    margin-left: 30px;
+}
+.img2{
+    margin-top: 35px;
+    width: 300px;
+    margin-left: 30px;
+}
+.build{
+    color: white;
+    margin-left: -15px;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+}
+.huddle{
+ display: none;
+}
+.huddles{
+    display: block;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+    .button{
+        color: $Violet;
+        margin-left: 50px;
+        margin-top: 20px;
+        font-size: 13px;
+        padding: 9px;
+        width: 240px;
+        border-radius: 25px;
+        border: none;
+    }
+    .button:hover{
+        background-color: $Soft-Magenta;
+    }
+    .bottom{
+        margin-top: 50px;
+        margin-left: 120px;
+    }
+   .img3{
+       border: 1px solid white;
+       padding: 5px;
+       border-radius: 50px;
+       width: 12px;
+   }
+   .img3:hover{
+       color: $Soft-Magenta;
+       border: 1px solid $Soft-Magenta;
+
+   }
+   .img6{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50px;
+    width: 12px;
+}
+
+.img4{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50px;
+    width: 12px;
+}
+.attribution{
+    color: black;
+    margin-top: 225px;
+}
+
+}
