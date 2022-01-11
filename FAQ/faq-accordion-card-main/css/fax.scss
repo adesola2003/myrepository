@@ -1,0 +1,295 @@
+$main-bg:linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+$second: white;
+$main-width: 886px;
+$main-height: 480px;
+$font: Arial, Helvetica, sans-serif;
+
+$Mobile: 375px;
+ $desktop: 1440px;
+
+    
+@media only screen and (min-width:$desktop){
+    
+
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-image:$main-bg;
+    width: $main-width;
+    height: $main-height;
+    
+    border-radius: 10px;
+    position: relative;
+    top: 60px;
+    left: 280px;
+    font-family: $font;
+}
+
+.main img{
+    width: 395px;
+    
+    margin-top: 50px;
+    margin-left: 40px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: none;
+    border-bottom-right-radius: none;
+    border-left: none;
+}
+
+.second{
+    display: inline;
+    
+    
+}
+
+.faq{
+    width: 390px;
+    height: 389px;
+    background-color: white;
+    margin-left: 407px;
+    margin-top: -414px;
+    text-align: left;
+    border-bottom-left-radius: none;
+    border-top-left-radius: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.faq h1{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+p{
+
+    padding-left: 35px;
+    font-size: 11px;
+}
+
+p span{
+    font-size: 15px;
+    margin-left: -10px;
+}
+div .dropdown{
+    position: relative;
+    display: inline-block;
+}
+div .dropbtn{
+
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+div .dropdown-content{
+    position: absolute;
+
+    z-index: 1;
+    display:none;
+
+}
+div .dropdown-content p{
+    color: black;
+    font-size: 10px;
+    text-decoration: none;
+    position: relative;
+    top: -27px;
+    display: block;
+}
+div .dropdown:hover .dropdown-content{ 
+            display: block;
+}
+input{
+    cursor: pointer;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    padding: 4px;
+    position: relative;
+    left: 20px;
+    width: 300px;
+}
+:placeholder-shown{
+    padding: 15px;
+}
+.input{
+    font-size: 11px;
+    
+    position: relative;
+    left: 20px;
+    outline: none;
+}
+.inputs{
+    font-size: 11px;
+    border: none;
+    outline: none;
+    position: relative;
+   left: 20px;
+}
+.input:placeholder-shown{
+    padding: 0;
+}
+
+.inputs:placeholder-shown{
+    padding: 0;
+
+}
+input:hover{
+
+    color: orangered;
+}
+
+.attribution{
+    text-align: center;
+}
+
+.main_mobile{
+    display: none;
+}
+.attributions{
+    
+        display: none;
+    
+}
+
+
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width:$Mobile){
+
+
+    $main-bg:linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+$second: white;
+$main-width: 375px;
+$main-height: 820px;
+$font: Arial, Helvetica, sans-serif;
+
+
+    .main{
+        display: none;
+    }
+.main_mobile{
+
+    display: block;
+   
+    background-image:$main-bg;
+    width: $main-width;
+    height: $main-height;
+    border-radius: 10px;
+   
+    position: relative;
+    top: -80px;
+    
+    font-family: $font;
+}
+.attribution{
+    
+    display: none;
+
+}
+.attributions{
+    
+    display: block;
+
+}
+
+.main_mobile img{
+    width: 306px;
+    
+    border-bottom-left-radius: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: none;
+    position: relative;
+    left: 30px;
+    top: 40px;
+}
+
+.wo{
+    width: 302px;
+    background-color: white;
+    position: relative;
+    top: 15px;
+    left: 30px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: none;
+    border-top-right-radius: none;
+    border-bottom-right-radius: 10px;
+}
+
+.faqs{
+    width: 270px;
+    height: 389px;
+    background-color: white;
+   
+    text-align: center;
+    border-radius: 10px;
+}
+.faqs .fa{
+    position: relative;
+    top: 20px;
+}
+
+input{
+    cursor: pointer;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    padding: 4px;
+    position: relative;
+    left: 20px;
+    width: 230px;
+}
+
+p{
+
+    padding-left: 20px;
+    font-size: 11px;
+}
+
+p span{
+    font-size: 15px;
+    position: relative;
+    left: 80px;
+    top: -16px;
+}
+.inputs{
+    font-size: 11px;
+    border: none;
+    outline: none;
+    position: relative;
+   left: 18px;
+}
+
+input:hover{
+
+    color: orangered;
+}
+}
+
+
+    
+    
