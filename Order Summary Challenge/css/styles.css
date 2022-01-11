@@ -44,7 +44,7 @@
 .do a {
   font-size: 12px;
   color: #0000c5;
-  position: relative;
+  position: absolute;
   top: -38px;
   margin-left: 220px;
 }
