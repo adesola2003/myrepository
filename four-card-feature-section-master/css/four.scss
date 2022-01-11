@@ -1,0 +1,380 @@
+$main : white;
+$main_width: 100%;
+$text: center;
+$font_family: Arial, Helvetica, sans-serif;
+$fo_we: 200;
+$opa:0.6;
+$size:30px;
+$main_bg:whitesmoke;
+$bg_co: white;
+$pad: 10px;
+$fon:15px;
+
+
+$Mobile: 375px;
+ $Desktop: 1440px;
+    
+ @media screen and (min-width:$Desktop){
+
+body{
+    background-color: $main_bg;
+}
+.main{
+    display: block;
+    background-color: $main_bg;
+    width: $main_width;
+    font-family: $font_family;
+    font-size: 15px;
+}
+.h1{
+    display: block;
+    text-align: $text;
+    font-weight: $fo_we;
+    opacity: $opa;
+    font-size: $size;
+}
+.h3{
+    display: block;
+    font-size: 29px;
+    text-align: $text;
+    margin-top: -20px;
+    opacity: 0.7;
+}
+.our{
+    display: block;
+    font-size: 13px;
+    text-align: $text;
+    margin-top: -20px;
+    opacity: 0.5;
+}
+.bodys{
+    display: block;
+    display: flex;
+}
+
+.team{
+    display: block;
+    background-color: $bg_co;
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    border-top: 3px solid hsl(0, 78%, 62%);
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    font-size: $fon;
+    margin-left: 600px;
+    margin-top: 60px;
+}
+.team h4{
+    padding-left: 20px;
+    opacity: 0.8;
+}
+.team p{
+    font-size: 10px;
+    padding-left: 20px;
+    opacity: $opa;
+}
+.team img{
+    padding-left: 180px;
+}
+
+
+.supervisor{
+    display: block;
+    background-color: $bg_co;
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    border-top: 3px solid   hsl(212, 86%, 64%);
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    font-size: $fon;
+    margin-left: -520px;
+    margin-top: 150px;
+}
+.supervisor h4{
+    padding-left: 20px;
+    opacity: 0.8;
+}
+.supervisor p{
+    font-size: 10px;
+    padding-left: 20px;
+    opacity: $opa;
+}
+.supervisor img{
+    padding-left: 180px;
+}
+
+
+
+.calculator{
+    display: block;
+    background-color: $bg_co;
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    border-top: 3px solid  hsl(180, 62%, 55%);
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    font-size: $fon;
+    margin-left: 290px;
+    margin-top: 150px;
+}
+.calculator h4{
+    padding-left: 20px;
+    opacity: 0.8;
+}
+.calculator p{
+    font-size: 10px;
+    padding-left: 20px;
+    opacity: $opa;
+}
+.calculator img{
+    padding-left: 180px;
+}
+
+.karma{
+    display: block;
+    background-color: $bg_co;
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    border-top: 3px solid hsl(34, 97%, 64%);
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    font-size: $fon;
+    
+    margin-top: 230px;
+    margin-left: -250px;
+}
+.karma h4{
+    padding-left: 20px;
+    opacity: 0.8;
+}
+.karma p{
+    font-size: 10px;
+    padding-left: 20px;
+    opacity: $opa;
+}
+.karma img{
+    padding-left: 180px;
+}
+
+
+.footer{
+    display: block;
+    margin-top: 60px;
+}
+.main_mobile{
+    display: none;
+}
+.ours{
+    display: none;
+}
+ }
+ .supervisors{
+     display: none;
+ }
+ .teams{
+     display: none;
+ }
+ .karmas{
+     display: none;
+ }
+.calculators{
+    display: none;
+}
+ .attributions{
+     display: none;
+ }
+ @media only screen and (max-width:480px){
+
+.attribution{
+    display: none;
+}
+    $main : white;
+$main_width: 100%;
+$text: center;
+$font_family: Arial, Helvetica, sans-serif;
+$fo_we: 200;
+$opa:0.6;
+$size:30px;
+$main_bg:whitesmoke;
+$bg_co: white;
+$pad: 10px;
+$fon:15px;
+
+
+.main_mobile{
+    display: block;
+}
+
+.h1{
+    
+    text-align: $text;
+    font-weight: $fo_we;
+    opacity: $opa;
+    font-size: $size;
+}
+.h3{
+    font-size: 29px;
+    text-align: $text;
+    margin-top: -20px;
+    opacity: 0.7;
+}
+.h3{
+    font-size: 29px;
+    margin-left: -20px;
+    margin-top: -20px;
+    opacity: 0.7;
+}
+.ours{
+    display: block;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: -20px;
+    opacity: 0.5;
+}
+.our{
+    display: none;
+}
+
+.bodys{
+    
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.supervisor{
+    display: none;
+}
+
+.supervisors{
+    display: block;
+    background-color: $bg_co;
+    width: 330px;
+    height: 150px;
+    border-radius: 5px;
+    border-top: 3px solid   hsl(212, 86%, 64%);
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    font-size: $fon;
+    margin-top: -660px;
+    margin-left: 15px;
+    
+}
+.supervisors h4{
+    padding-left: 20px;
+    opacity: 0.8;
+}
+.supervisors p{
+    font-size: 10px;
+    padding-left: 20px;
+    opacity: $opa;
+}
+.supervisors img{
+    padding-left: 180px;
+}
+
+.team{
+    display: none;
+}
+
+.teams{
+    display: block;
+    background-color: $bg_co;
+    width: 330px;
+    height: 150px;
+    border-radius: 5px;
+    border-top: 3px solid hsl(0, 78%, 62%);
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    font-size: $fon;
+    margin-left: 15px;
+    margin-top: -330px;
+}
+.teams h4{
+    padding-left: 20px;
+    opacity: 0.8;
+}
+.teams p{
+    font-size: 10px;
+    padding-left: 20px;
+    opacity: $opa;
+}
+.teams img{
+    padding-left: 180px;
+}
+.karma{
+    display: none;
+}
+.karmas{
+    display: block;
+    background-color: $bg_co;
+    width: 330px;
+    height: 150px;
+    border-radius: 5px;
+    border-top: 3px solid hsl(34, 97%, 64%);
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    font-size: $fon;
+    
+    margin-top: 184px;
+    margin-left: 15px;
+}
+.karmas h4{
+    padding-left: 20px;
+    opacity: 0.8;
+}
+.karmas p{
+    font-size: 10px;
+    padding-left: 20px;
+    opacity: $opa;
+}
+.karmas img{
+    padding-left: 180px;
+}
+.calculator{
+    display: none;
+}
+
+.calculators{
+    display: block;
+    background-color: $bg_co;
+    width: 330px;
+    height: 150px;
+    border-radius: 5px;
+    border-top: 3px solid  hsl(180, 62%, 55%);
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    font-size: $fon;
+    margin-left: 15px;
+    margin-top: 550px;
+}
+.calculators h4{
+    padding-left: 20px;
+    opacity: 0.8;
+}
+.calculators p{
+    font-size: 10px;
+    padding-left: 20px;
+    opacity: $opa;
+}
+.calculators img{
+    padding-left: 180px;
+}
+.attributions { display: block; font-size: 11px; text-align: center; }
+    .attributions a { color: hsl(228, 45%, 44%); }
+    .footer{
+        margin-top: 370px;
+    }
+ }
+ 

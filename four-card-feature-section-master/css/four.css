@@ -1,0 +1,347 @@
+@media screen and (min-width: 1440px) {
+  body {
+    background-color: whitesmoke;
+  }
+  .main {
+    display: block;
+    background-color: whitesmoke;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+  .h1 {
+    display: block;
+    text-align: center;
+    font-weight: 200;
+    opacity: 0.6;
+    font-size: 30px;
+  }
+  .h3 {
+    display: block;
+    font-size: 29px;
+    text-align: center;
+    margin-top: -20px;
+    opacity: 0.7;
+  }
+  .our {
+    display: block;
+    font-size: 13px;
+    text-align: center;
+    margin-top: -20px;
+    opacity: 0.5;
+  }
+  .bodys {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .team {
+    display: block;
+    background-color: white;
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    border-top: 3px solid #ea5353;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    font-size: 15px;
+    margin-left: 600px;
+    margin-top: 60px;
+  }
+  .team h4 {
+    padding-left: 20px;
+    opacity: 0.8;
+  }
+  .team p {
+    font-size: 10px;
+    padding-left: 20px;
+    opacity: 0.6;
+  }
+  .team img {
+    padding-left: 180px;
+  }
+  .supervisor {
+    display: block;
+    background-color: white;
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    border-top: 3px solid #549ef2;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    font-size: 15px;
+    margin-left: -520px;
+    margin-top: 150px;
+  }
+  .supervisor h4 {
+    padding-left: 20px;
+    opacity: 0.8;
+  }
+  .supervisor p {
+    font-size: 10px;
+    padding-left: 20px;
+    opacity: 0.6;
+  }
+  .supervisor img {
+    padding-left: 180px;
+  }
+  .calculator {
+    display: block;
+    background-color: white;
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    border-top: 3px solid #45d3d3;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    font-size: 15px;
+    margin-left: 290px;
+    margin-top: 150px;
+  }
+  .calculator h4 {
+    padding-left: 20px;
+    opacity: 0.8;
+  }
+  .calculator p {
+    font-size: 10px;
+    padding-left: 20px;
+    opacity: 0.6;
+  }
+  .calculator img {
+    padding-left: 180px;
+  }
+  .karma {
+    display: block;
+    background-color: white;
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    border-top: 3px solid #fcaf4a;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    font-size: 15px;
+    margin-top: 230px;
+    margin-left: -250px;
+  }
+  .karma h4 {
+    padding-left: 20px;
+    opacity: 0.8;
+  }
+  .karma p {
+    font-size: 10px;
+    padding-left: 20px;
+    opacity: 0.6;
+  }
+  .karma img {
+    padding-left: 180px;
+  }
+  .footer {
+    display: block;
+    margin-top: 60px;
+  }
+  .main_mobile {
+    display: none;
+  }
+  .ours {
+    display: none;
+  }
+}
+
+.supervisors {
+  display: none;
+}
+
+.teams {
+  display: none;
+}
+
+.karmas {
+  display: none;
+}
+
+.calculators {
+  display: none;
+}
+
+.attributions {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .attribution {
+    display: none;
+  }
+  .main_mobile {
+    display: block;
+  }
+  .h1 {
+    text-align: center;
+    font-weight: 200;
+    opacity: 0.6;
+    font-size: 30px;
+  }
+  .h3 {
+    font-size: 29px;
+    text-align: center;
+    margin-top: -20px;
+    opacity: 0.7;
+  }
+  .h3 {
+    font-size: 29px;
+    margin-left: -20px;
+    margin-top: -20px;
+    opacity: 0.7;
+  }
+  .ours {
+    display: block;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: -20px;
+    opacity: 0.5;
+  }
+  .our {
+    display: none;
+  }
+  .bodys {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .supervisor {
+    display: none;
+  }
+  .supervisors {
+    display: block;
+    background-color: white;
+    width: 330px;
+    height: 150px;
+    border-radius: 5px;
+    border-top: 3px solid #549ef2;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    font-size: 15px;
+    margin-top: -660px;
+    margin-left: 15px;
+  }
+  .supervisors h4 {
+    padding-left: 20px;
+    opacity: 0.8;
+  }
+  .supervisors p {
+    font-size: 10px;
+    padding-left: 20px;
+    opacity: 0.6;
+  }
+  .supervisors img {
+    padding-left: 180px;
+  }
+  .team {
+    display: none;
+  }
+  .teams {
+    display: block;
+    background-color: white;
+    width: 330px;
+    height: 150px;
+    border-radius: 5px;
+    border-top: 3px solid #ea5353;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: -330px;
+  }
+  .teams h4 {
+    padding-left: 20px;
+    opacity: 0.8;
+  }
+  .teams p {
+    font-size: 10px;
+    padding-left: 20px;
+    opacity: 0.6;
+  }
+  .teams img {
+    padding-left: 180px;
+  }
+  .karma {
+    display: none;
+  }
+  .karmas {
+    display: block;
+    background-color: white;
+    width: 330px;
+    height: 150px;
+    border-radius: 5px;
+    border-top: 3px solid #fcaf4a;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    font-size: 15px;
+    margin-top: 184px;
+    margin-left: 15px;
+  }
+  .karmas h4 {
+    padding-left: 20px;
+    opacity: 0.8;
+  }
+  .karmas p {
+    font-size: 10px;
+    padding-left: 20px;
+    opacity: 0.6;
+  }
+  .karmas img {
+    padding-left: 180px;
+  }
+  .calculator {
+    display: none;
+  }
+  .calculators {
+    display: block;
+    background-color: white;
+    width: 330px;
+    height: 150px;
+    border-radius: 5px;
+    border-top: 3px solid #45d3d3;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 550px;
+  }
+  .calculators h4 {
+    padding-left: 20px;
+    opacity: 0.8;
+  }
+  .calculators p {
+    font-size: 10px;
+    padding-left: 20px;
+    opacity: 0.6;
+  }
+  .calculators img {
+    padding-left: 180px;
+  }
+  .attributions {
+    display: block;
+    font-size: 11px;
+    text-align: center;
+  }
+  .attributions a {
+    color: #3e52a3;
+  }
+  .footer {
+    margin-top: 370px;
+  }
+}
+/*# sourceMappingURL=four.css.map */
