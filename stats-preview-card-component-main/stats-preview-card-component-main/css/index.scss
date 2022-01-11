@@ -1,0 +1,207 @@
+$main_bg:hsl(233, 47%, 7%);
+$card_background : hsl(244, 38%, 16%);
+$accent: hsl(277, 64%, 61%);
+$stat_headings: hsla(0, 0%, 100%, 0.6);
+$font: 11px;
+
+
+
+
+@media screen and (max-width:1440px) {
+    body{ 
+     background-color: $main_bg;
+    }
+    .card{
+        background-color: $card_background;
+        border-radius: 14px;
+        width: 850px;
+        position: relative;
+        left: 250px;
+        top: 150px;       
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+    .h1{
+        color: hsl(0, 0%, 100%);
+        position: relative;
+        left: -130px;
+    }
+    .p{
+        font-size: 14px;
+        color: $stat_headings;
+    }
+    h2 .span{
+        font-size: $font;
+        color: $stat_headings;
+        
+    }
+    .h2{
+        position: relative;
+        
+        left: 100px;
+        margin-top: -76px;
+    }
+    .h22 .spas{
+        font-size: $font;
+        color: $stat_headings;
+       
+    }
+    .h22{
+        position: relative;
+        
+        left: 200px;
+        margin-top: -76px;
+    }
+    h2 .spans{
+        font-size: $font;
+        color: $stat_headings;
+       
+    }
+    .dis{
+        position: relative;
+        left: -130px;
+    }
+
+    .card1{
+        background-color: $card_background;
+        position: relative;
+        
+        color: white;
+        
+        display: inline;
+    }
+    .card .spa{
+        color: $accent;
+    }
+    .card2{
+        
+        width: 20%;
+        display: inline;
+    }
+    .card2 img{
+        opacity: $accent;
+        position: relative;
+        border-radius: 15px;
+        left: -36px;
+        top: 3px;
+        width: 400px;
+    }
+    .card3{
+        display: none;
+    }
+    .h12{
+        display: none;
+    }
+    .ps{
+        display: none;
+    }
+}
+
+
+
+
+@media screen and (max-width:375px) {
+    body{ 
+        background-color: $main_bg;
+       }
+       .card{
+           background-color: $card_background;
+           border-radius: 20px;
+           width: 250px;
+        height: 600px;
+           position: relative;
+           left: 55px;
+           top: 90px;       
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: center; 
+       }
+       .h1{
+           display: none;
+       }
+       .h12{
+           display: block;
+           color: hsl(0, 0%, 100%);
+           font-size: 20px;
+           position: relative;
+           text-align: center;
+           top: 100px;
+       }
+       .p{
+           position: relative;
+           text-align: center;
+           
+           top: 110px;
+            left: -12px;
+           font-size: 13px;
+           color: $stat_headings;
+       }
+       h2 .span{
+           font-size: $font;
+           color: $stat_headings;
+           
+       }
+       .h2s{
+        position: relative;
+        top: 115px;
+        
+ 
+    }
+       .h2{
+           position: relative;
+           top: 200px;
+           left: -8px;
+    
+       }
+       .h22 .spas{
+           font-size: $font;
+           color: $stat_headings;
+          
+       }
+       .h22{
+           position: relative;
+           top: 280px;
+           left: -7px;
+           
+       }
+       h2 .spans{
+           font-size: $font;
+           color: $stat_headings;
+          
+       }
+       .dis{
+           position: relative;
+           text-align: center;
+           left: 10px;
+       }
+   
+       .card1{
+           background-color: $card_background;
+           position: relative;
+           top: 60px;
+           color: white;
+           
+           display: inline;
+       }
+       .card .spa2{
+           color: $accent;
+       }
+       .card2{
+           display: none;
+       }
+       .card3{
+           
+           width: 20%;
+           display: inline;
+       }
+       .card3 img{
+           opacity: $accent;
+           position: relative;
+           border-radius: 15px;
+           left: -100px;
+           top: -360px;
+           width: 250px;
+       }
+
+}
