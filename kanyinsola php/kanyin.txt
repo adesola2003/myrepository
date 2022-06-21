@@ -1,0 +1,12 @@
+King David School is a government approved school. 
+Thus any certification achieved at KDS is recognized worldwide. KDS is incorporated under the laws of the Lagos State Government. 
+Also, our school is a duly registered member of some global educational bodies such as:
+       <ol>
+           <li> NAPPS   - Nation Association Of Propietor OF Private School.</li>
+
+    <br>
+    <hr>
+    <br>
+           King David School is a government approved school. Thus any certification achieved at KDS is recognized worldwide. KDS is incorporated under the laws of the Lagos State Government. Also, our school is a duly registered member of some global educational bodies such as:</p>
+       <ol>
+           <li> NAPPS   - Nation Association Of Propietor OF Private School.</li>
