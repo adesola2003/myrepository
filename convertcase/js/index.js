@@ -1068,7 +1068,12 @@ function displays(){
 
 //          myunicorn.style.display = 'block';
  
-
+//    star2.style.fontFamily = "Arial, Helvetica, sans-serif" + "\n";
+//    star2.style.fontWeight = "bolder" + "\n";
+//    star2.style.fontStyle= "italic" + "\n";
+//    star2.style.fontFamily = "'Times New Roman', Times, serif" + "\n";
+//    star2.style.textDecoration= "underline" + "\n";
+//    star2.style.textTransform= "uppercase" + "\n";
 
     
-// }
+//}
