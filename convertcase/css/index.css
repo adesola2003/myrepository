@@ -1,0 +1,512 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.btn-header{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 50px;
+    
+}
+.mor{
+    display: block;
+    
+position: relative;
+top: -46px;
+left: 1151px;
+}
+.btn-color{
+   background-color: rgb(67,67,67);
+    color: white;
+    font-size: 13px;
+    width: 100px;
+    padding: 5px;
+}
+.btn-color:hover{
+    background-color:rgb(118,118,118) ;
+}
+.line{
+    margin: auto;
+    border-bottom:3px solid rgb(118,118,118);
+    width: 1245px;
+    margin-top: -44px;
+}
+.wide-text{
+    background-color:rgb(118,118,118) ;
+    
+}
+.main-parts{
+    display: none;
+}
+.main-part{
+    margin: auto; 
+    width: 1245px;
+    height: 800px;
+    background-color: rgb(67,67,67);
+margin-top: -17px;
+}
+.main-part h1{
+    background-color: rgb(67,67,67);
+    padding: 20px;
+    color: white;
+}
+.main-part p{
+    
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+}
+.test{
+    margin-top: 40px;
+    margin-left: 20px;
+    color: white;
+    outline: none;
+}
+.write{
+    background-color:rgb(165, 161, 161) ;
+    color: white;
+    outline: none;
+}
+.hide{
+    background-color:rgb(165, 161, 161) ;
+    color: white;
+    outline: none; width: 500px;
+}
+
+.btn-colors{
+    background-color: rgb(165, 161, 161);
+     color: white;
+     font-size: 13px;
+    border: none;
+     padding: 5px;
+ }
+ .btn-colors:hover{
+    background-color: black;
+}
+.btn-bottom{
+    margin-left: 500px;
+margin-top: -100px;
+border: none;
+
+}
+.btn-bottomp{
+    margin-left: 40px;
+    color: white;
+}
+
+.button1{
+    color: white;
+    background-color: rgb(59,89,152);
+}
+.button1:hover{
+    color: white;
+    background-color: rgb(32, 69, 150);
+}
+.button2{
+    color: white;
+    background-color: rgb(20,122,200);
+}
+.button2:hover{
+    color: white;
+    background-color: rgb(9, 91, 155);
+}
+.button3{
+    color: white;
+    background-color: rgb(30,71,122);
+}
+.button3:hover{
+    color: white;
+    background-color: rgb(4, 61, 104)
+}
+.button4{
+    color: white;
+    background-color: rgb(0,102,102);
+}
+.button4:hover{
+    color: white;
+    background-color: rgb(1, 80, 80);
+}
+.button5{
+    color: white;
+    background-color: rgb(98,186,89);
+}
+.button5:hover{
+    color: white;
+    background-color: rgb(33, 170, 18);
+}
+.button6{
+    color: white;
+    background-color: rgb(118,118,118);
+}
+.button6:hover{
+    color: white;
+    background-color: rgb(82, 80, 80);
+}
+
+.btn-bottom button{
+    border: none;
+}
+.concept{
+    text-align: center;
+}
+/* .wides{
+    display: none;
+} */
+.strike{
+    display: none;
+}  
+.small{
+    display: none;
+}  
+.right{
+    display: none;
+}  
+.upright{
+    display: none;
+}  
+.morse{
+    display: none;
+}  
+.title{
+    display: none;
+}  
+.bold{
+    display: none;
+
+}  
+.itals{
+    display: none;
+}
+.binary{
+    display: none;
+}
+.invis{
+    display: none;
+}
+
+.more-tools{
+    display: none;
+    position: absolute;
+    
+    background-color: rgb(67, 67, 67);
+    z-index: 4;
+    margin-left: 1030px;
+}
+/* #mor:hover .more-tools{
+    display: block;
+} */
+.more-tools ul{
+
+    cursor: pointer;
+    color: white;
+}
+.more-tools ul li{
+
+    padding: 3px;
+    list-style-type: none;
+
+}
+.more-tools ul li:hover{
+   
+    background-color: rgb(82, 80, 80);
+}
+.lines{
+    display: none;
+}
+
+.sentence{
+    display: none;
+}
+.mirror{
+    display: none;
+}
+.repeat{
+    display: none;
+}
+
+.bubble{
+    display: none;
+}
+
+
+ .mor{
+    display: block;
+}
+.mors{
+    display: none;
+} 
+.morss{
+    display: none;
+} 
+.write{
+    display: block;
+}
+.writes{
+    display: none;
+}
+.p2{
+    display: none;
+}
+.p1{
+    display: block;
+}
+.art{
+    display: none;
+}
+.json{
+    display: none;
+}
+.zalgo{
+    display: none;
+}
+.texts{
+    display: none;
+}
+
+@media screen and (max-width:685px) {
+    .btn-header{
+        text-align: left;
+        margin-top: 0;  
+    margin-left: 10px;
+    }
+    
+.btn-color{
+    background-color: rgb(67,67,67);
+     color: white;
+     font-size: 13px;
+     width: 100px;
+     padding: 5px;
+     margin-left: 3px;
+ }
+ .btn-color:hover{
+     background-color:rgb(118,118,118) ;
+ }
+ .line{
+     margin: auto;
+     border-bottom:3px solid rgb(118,118,118);
+     width: 100%;
+ }
+    .mors{
+        display: block;
+        margin-left: 540px;
+        margin-top: -42px;
+    }
+    .mor{
+        display: none;
+    }
+    .morss{
+        display: none;
+    } 
+   
+  
+    .doone{
+        display: none;
+    }
+    .more-tools{
+        display: none;
+        position: absolute;
+        
+        background-color: rgb(67, 67, 67);
+        z-index: 4;
+        margin-left: 400px;
+    }
+    /* #mor:hover .more-tools{
+        display: block;
+    } */
+    .more-tools ul{
+    
+        cursor: pointer;
+        color: white;
+    }
+    .more-tools ul li{
+    
+        padding: 3px;
+        list-style-type: none;
+    
+    }
+    .more-tools ul li:hover{
+       
+        background-color: rgb(82, 80, 80);
+    }
+    
+.main-part{
+    margin: auto; 
+    width: 100%;
+    height: 1100px;
+    background-color: rgb(67,67,67);
+margin-top: -15px;
+}
+.test{
+    margin-top: 100px;
+    margin-left: 20px;
+    color: white;
+    outline: none;
+    position: relative;
+    
+}
+.btn-colors{
+    background-color: rgb(165, 161, 161);
+     color: white;
+     font-size: 13px;
+    border: none;
+     padding: 5px;
+     
+ }
+ .btn-colors:hover{
+    background-color: black;
+}
+.btn-bottom{
+    margin-left: 140px;
+margin-top: -160px;
+border: none;
+
+}
+.btn-bottomp{
+color: white;
+}
+.write{
+    display: block;
+}
+.writes{
+    display: none;
+}
+.p2{
+    display: none;
+}
+.p1{
+    display: block;
+}
+.wri{
+    width: 600px;
+}
+}
+
+@media screen and (max-width:390px) {
+  textarea{
+    width: 320px;
+
+  }
+ 
+    .btn-header{
+        text-align: left;
+        margin-top: 0;  
+    margin-left: 10px;
+    }
+    
+.btn-color{
+    background-color: rgb(67,67,67);
+     color: white;
+     font-size: 13px;
+     width: 100px;
+     padding: 5px;
+     margin-left: 3px;
+ }
+ .btn-color:hover{
+     background-color:rgb(118,118,118) ;
+ }
+ .line{
+     margin: auto;
+     border-bottom:3px solid rgb(118,118,118);
+     width: 100%;
+     margin-top: 4px;
+ }
+    .morss{
+        display: block;
+        width: 160px;
+        margin-left: 210px;
+        margin-top: -41px;
+    }
+    .mor{
+        display: none;
+    }
+    .mors{
+        display: none;
+    } 
+   .dooone{
+    display: none;
+   }
+    .doone{
+        display: none;
+    }
+    .more-tools{
+        display: none;
+        position: absolute;
+        width: 390px;
+        background-color: rgb(67, 67, 67);
+        z-index: 4;
+        margin-left:0;
+        
+    }
+    /* #mor:hover .more-tools{
+        display: block;
+    } */
+    .more-tools ul{
+    
+        cursor: pointer;
+        color: white;
+    }
+    .more-tools ul li{
+    
+        padding: 3px;
+        list-style-type: none;
+    
+    }
+    .more-tools ul li:hover{
+       
+        background-color: rgb(82, 80, 80);
+    }
+    
+.main-part{
+    margin: auto; 
+    width: 100%;
+    height: 1070px;
+    background-color: rgb(67,67,67);
+margin-top: -14px;
+}
+.test{
+    margin-top: -10px;
+    margin-left: 20px;
+    color: white;
+    outline: none;
+    position: relative;
+    
+}
+.btn-colors{
+    background-color: rgb(165, 161, 161);
+     color: white;
+     font-size: 13px;
+    border: none;
+     padding: 5px;
+     
+ }
+ .btn-colors:hover{
+    background-color: black;
+}
+.btn-bottom{
+    display: none;
+    margin-left: 200px;
+margin-top: 50px;
+border: none;
+
+}
+.btn-bottomp{
+    margin-top: -300px;
+    
+    color: white;
+}
+.concept{
+    margin-top: 30px;
+}
+.wri{
+    width: 350px;
+    /*height: 100px;*/
+}
+.hide{
+    background-color:rgb(165, 161, 161) ;
+    color: white;
+    outline: none; width: 300px;
+}
+}
