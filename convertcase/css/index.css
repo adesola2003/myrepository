@@ -262,8 +262,15 @@ border: none;
 .zalgo{
     display: none;
 }
+/* .unicorn{
+    display: none;
+} */
 .texts{
     display: none;
+}
+.ul li span{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 @media screen and (max-width:685px) {

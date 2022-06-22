@@ -35,6 +35,7 @@ document.getElementById("zalgo").style.display = "none";
 document.getElementById("main2").style.display = "none";
 document.getElementById("main").style.display = "block";
 document.getElementById("texts").style.display = "none";
+document.getElementById("unicorn").style.display = "none";
 
         mywide.style.display = 'block';
         star2.style.letterSpacing = "15px";
@@ -70,6 +71,7 @@ function the() {
       document.getElementById("main2").style.display = "none";
       document.getElementById("main").style.display = "block";
       document.getElementById("texts").style.display = "none";
+      document.getElementById("unicorn").style.display = "none";
 
         mysmall.style.display = 'block';
          star2.style.textTransform= "lowercase";
@@ -105,6 +107,7 @@ document.getElementById("zalgo").style.display = "none";
 document.getElementById("main2").style.display = "none";
 document.getElementById("main").style.display = "block";
 document.getElementById("texts").style.display = "none";
+document.getElementById("unicorn").style.display = "none";
 
     let mystrike = document.getElementById("strike");
 
@@ -142,6 +145,7 @@ document.getElementById("zalgo").style.display = "none";
 document.getElementById("main2").style.display = "none";
 document.getElementById("main").style.display = "block";
 document.getElementById("texts").style.display = "none";
+document.getElementById("unicorn").style.display = "none";
 
         myright.style.display = 'block';
          star2.style.transform= "scale(-1, 1)";
@@ -178,7 +182,7 @@ document.getElementById("zalgo").style.display = "none";
 document.getElementById("main2").style.display = "none";
 document.getElementById("main").style.display = "block";
 document.getElementById("texts").style.display = "none";
-
+document.getElementById("unicorn").style.display = "none";
 
             myupright.style.display = 'block';
         star2.style.transform= "rotateX(180deg)";
@@ -272,6 +276,7 @@ document.getElementById("zalgo").style.display = "none";
 document.getElementById("main2").style.display = "none";
 document.getElementById("main").style.display = "block";
 document.getElementById("texts").style.display = "none";
+document.getElementById("unicorn").style.display = "none";
 
          let input = document.getElementById("first").value;
          input = input.toUpperCase();
@@ -339,7 +344,7 @@ document.getElementById("zalgo").style.display = "none";
 document.getElementById("main2").style.display = "none";
 document.getElementById("main").style.display = "block";
 document.getElementById("texts").style.display = "none";
-
+document.getElementById("unicorn").style.display = "none";
 
         mybinary.style.display = 'block';
 
@@ -397,6 +402,7 @@ document.getElementById("zalgo").style.display = "none";
 document.getElementById("main2").style.display = "none";
 document.getElementById("main").style.display = "block";
 document.getElementById("texts").style.display = "none";
+document.getElementById("unicorn").style.display = "none";
 
        mytitle.style.display = 'block';
     star2.style.textTransform= "capitalize";
@@ -432,6 +438,7 @@ document.getElementById("zalgo").style.display = "none";
 document.getElementById("main2").style.display = "none";
 document.getElementById("main").style.display = "block";
 document.getElementById("texts").style.display = "none";
+document.getElementById("unicorn").style.display = "none";
 
                            
     mybold.style.display = 'block';
@@ -469,6 +476,7 @@ document.getElementById("zalgo").style.display = "none";
 document.getElementById("main2").style.display = "none";
 document.getElementById("main").style.display = "block";
 document.getElementById("texts").style.display = "none";
+document.getElementById("unicorn").style.display = "none";
 
         myital.style.display = 'block';
          star2.style.fontStyle= "italic";
@@ -532,6 +540,7 @@ document.getElementById("zalgo").style.display = "none";
 document.getElementById("main2").style.display = "none";
 document.getElementById("main").style.display = "block";
 document.getElementById("texts").style.display = "none";
+document.getElementById("unicorn").style.display = "none";
 
 
        myline.style.display = 'block';
@@ -566,6 +575,7 @@ document.getElementById("zalgo").style.display = "none";
 document.getElementById("main2").style.display = "none";
 document.getElementById("main").style.display = "block";
 document.getElementById("texts").style.display = "none";
+document.getElementById("unicorn").style.display = "none";
 
           mysentence.style.display = 'block';
        star2.style.textTransform= "capitalize";
@@ -597,6 +607,7 @@ document.getElementById("zalgo").style.display = "none";
 document.getElementById("main2").style.display = "none";
 document.getElementById("main").style.display = "block";
 document.getElementById("texts").style.display = "none";
+document.getElementById("unicorn").style.display = "none";
 
       mymirror.style.display = 'block';
       star2.style.transform= "scale(-1, 1)";
@@ -633,6 +644,7 @@ document.getElementById("zalgo").style.display = "none";
 document.getElementById("main2").style.display = "none";
 document.getElementById("main").style.display = "block";
 document.getElementById("texts").style.display = "none";
+document.getElementById("unicorn").style.display = "none";
 
 
       myrepeat.style.display = 'block';
@@ -670,6 +682,7 @@ document.getElementById("zalgo").style.display = "none";
 document.getElementById("main2").style.display = "none";
 document.getElementById("main").style.display = "block";
 document.getElementById("texts").style.display = "none";
+document.getElementById("unicorn").style.display = "none";
 
          myseess.style.display = 'block';
    
@@ -708,6 +721,10 @@ function bubble() {
       document.getElementById("main2").style.display = "none";
       document.getElementById("main").style.display = "block";
       document.getElementById("texts").style.display = "none";
+      document.getElementById("unicorn").style.display = "none";
+
+
+
 
          mybubbles.style.display = 'block';
  
@@ -808,6 +825,7 @@ function art() {
       document.getElementById("main2").style.display = "none";
       document.getElementById("main").style.display = "block";
       document.getElementById("texts").style.display = "none";
+      document.getElementById("unicorn").style.display = "none";
 
          myart.style.display = 'block';
         
@@ -857,6 +875,7 @@ function json() {
       document.getElementById("main2").style.display = "none";
       document.getElementById("main").style.display = "block";
       document.getElementById("texts").style.display = "none";
+      document.getElementById("unicorn").style.display = "none";
       
          myjson.style.display = 'block';
          
@@ -967,7 +986,7 @@ function download(textareaval,filename){
       document.getElementById("main2").style.display = "none";
    document.getElementById("main").style.display = "block";
    document.getElementById("texts").style.display = "none";
-     
+   document.getElementById("unicorn").style.display = "none";
 
       myzalgo.style.display="block";
   
@@ -1015,3 +1034,41 @@ function displays(){
    document.getElementById("texts").style.display = "none";
 
 }
+
+
+
+// function unicorn() {
+
+//    let myunicorn = document.getElementById("unicorn");
+//    document.getElementById("smal").style.display = "none";
+//    document.getElementById("wides").style.display = "none";
+//    document.getElementById("right").style.display = "none";
+//    document.getElementById("strike").style.display = "none";
+//    document.getElementById("upright").style.display = "none";
+//    document.getElementById("morse").style.display = "none";
+//       document.getElementById("bold").style.display = "none";
+//       document.getElementById("ita").style.display = "none"; 
+//       document.getElementById("binary").style.display = "none";
+//       document.getElementById("line").style.display = "none";
+//       document.getElementById("title").style.display = "none";
+//       document.getElementById("sentence").style.display = "none";
+//       document.getElementById("repeat").style.display = "none";
+//       document.getElementById("invis").style.display = "none";
+//       document.getElementById("text").style.marginTop = "40px";
+//       document.getElementById('more-toolsss').style.display = "none";
+//       document.getElementById('more-toolss').style.display = "none";
+//       document.getElementById('more-tools').style.display = "none";
+//       document.getElementById("art").style.display = "none";
+//       document.getElementById("json").style.display = "none";
+//       document.getElementById("zalgo").style.display = "none";
+//       document.getElementById("main2").style.display = "none";
+//       document.getElementById("main").style.display = "block";
+//       document.getElementById("texts").style.display = "none";
+     
+
+//          myunicorn.style.display = 'block';
+ 
+
+
+    
+// }

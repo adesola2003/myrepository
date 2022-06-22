@@ -54,7 +54,7 @@
    <ul>
     <li onclick="underline()">Underline Text Generator</li>
     <li onclick="mirror()">Mirror Text Generator</li>
-    <li>Unicorn Text Generator</li>
+    <!-- <li onclick="unicorn()">Unicorn Text Generator</li> -->
     <li onclick="bubble()" id="bubble">Bubble Text Generator</li>
     <li onclick="sentence()">Sentence Case Generator</li>
     <li onclick="zalgo()">Zalgo Glitch text Generator</li>
@@ -78,7 +78,7 @@
   <li onclick="italian()"> Italian Text  Converter</li> 
    <li onclick="underline()">Underline Text Generator</li>
    <li onclick="mirror()">Mirror Text Generator</li>
-   <li>Unicorn Text Generator</li>
+   <!-- <li>Unicorn Text Generator</li> -->
    <li onclick="bubble()">Bubble Text Generator</li>
    <li onclick="sentence()">Sentence Case Generator</li>
    <li onclick="zalgo()">Zalgo Glitch text Generator</li>
@@ -115,7 +115,7 @@
   <li onclick="italian()"> Italian Text  Converter</li> 
    <li onclick="underline()">Underline Text Generator</li>
    <li onclick="mirror()">Mirror Text Generator</li>
-   <li>Unicorn Text Generator</li>
+   <!-- <li>Unicorn Text Generator</li> -->
    <li onclick="bubble()">Bubble Text Generator</li>
    <li onclick="sentence()">Sentence Case Generator</li>
    <li onclick="zalgo()">Zalgo Glitch text Generator</li>
@@ -238,6 +238,10 @@
     <h1>Zalgo Glitch Text Generator</h1>
     <p>A handy online free glitch generator that will turn your standard text into zalgo text (which gives it the glitchy look below).</p>
     </div>
+    <!-- <div id="unicorn" class="unicorn"> 
+      <h1>Unicode Text Converter</h1>
+      <p>Looking for a quick way to look at the same text in a range of different fonts? Explore this tool.</p>
+      </div>   -->
 
    <div class="test" id="text">
     <div class="row">
@@ -303,30 +307,30 @@
     <div class="wides">
        <h1>Online Text Tools</h1>
        <p>Take a look at our wide range of text tools and see all the different ways you can manipulate, convert and generate new text.</p>
-       <ul style="color:white; font-size: 13px;">
-           <li><span>Small Text Generator</span> - Looking to turn your standard text into tiny text? Then use our small text generator to transform it into subscript that you can copy and paste wherever you like.</li>
-           <li><span>Wide Text Generator</span> - Are you looking to widen your text? Use our vaporwave text generator to turn your text into an aesthetic font to widen the look of your standard text.</li>
+       <ul style="color:white; font-size: 13px;" class="ul">
+           <li><span onclick="the()">Small Text Generator</span> - Looking to turn your standard text into tiny text? Then use our small text generator to transform it into subscript that you can copy and paste wherever you like.</li>
+           <li><span onclick="wide()">Wide Text Generator</span> - Are you looking to widen your text? Use our vaporwave text generator to turn your text into an aesthetic font to widen the look of your standard text.</li>
 
-           <li><span> Strike Through Text Generator</span> - Needing a quick way to cross out your text? Make use of the strike through text generator, that will put a line through your standard text</li>
+           <li><span onclick="strike()"> Strike Through Text Generator</span> - Needing a quick way to cross out your text? Make use of the strike through text generator, that will put a line through your standard text</li>
            
-           <li><span>Title Case Converter</span> - Are you wanting a way to capitalize your text? Our Title Case Converter does just that. It ensures your text is properly formatted into a Title.</li>
-           <li><span>Reverse Text Generator</span> - Are you wanting your text to read back to front? Then use the reverse text converter right here.</li>
-<li><span>Upside Down Text Generator</span> - Looking to literally flip your text 180 degrees? Then go ahead and check out the upside-down text generator.</li>
-<li><span>Morse Code Translator</span> - Are you looking to convert morse code into English or perhaps trying to decode morse code? Then use our handy Morse Code converter tool.</li>
-<li><span>Binary Code Translator</span> - A simple binary code translation tool that you can use for free online.</li>
+           <li><span onclick="titl()">Title Case Converter</span> - Are you wanting a way to capitalize your text? Our Title Case Converter does just that. It ensures your text is properly formatted into a Title.</li>
+           <li><span onclick="right()">Reverse Text Generator</span> - Are you wanting your text to read back to front? Then use the reverse text converter right here.</li>
+<li><span  onclick="upright()">Upside Down Text Generator</span> - Looking to literally flip your text 180 degrees? Then go ahead and check out the upside-down text generator.</li>
+<li><span onclick="morse()">Morse Code Translator</span> - Are you looking to convert morse code into English or perhaps trying to decode morse code? Then use our handy Morse Code converter tool.</li>
+<li><span onclick="binary()">Binary Code Translator</span> - A simple binary code translation tool that you can use for free online.</li>
    
-   <li><span>Bold Text Converter</span> - A simple to use text converter that allows you to transform standard normal text into bolded text.</li>
-<li><span>Italic Text Converter</span> - an easy and quick use italic tool to convert your text into a slant italic font. Simply copy and paste.</li>
-   <li><span>Underline Text</span> - a super easy way of getting your text underlined.</li>
-<li><span>Mirror Text</span> - looking for a quick way of creating mirror text? Simply use the mirror text generator.</li>
-<li><span>Unicode Text Converter</span> - Looking for a quick way to look at the same text in a range of different fonts? Explore this tool.</li>
-<li><span>Bubble Text Generator</span> - A quick simple tool to convert your text into a bubble text font.</li>
-<li><span>Sentence Case Generator</span> - A simple online free tool to convert your text into a sentence case format.</li>
-<li><span>Glitch Text Converter</span> - A quick online text converter to turn your text glitchy.</li>
-<li><span>Invisible Text</span> - Looking for a quick way of creating invisible characters? Simply use the invisible text generator.</li>
-<li><span>Ascii Art Generator</span> - Looking for a handy online tool that can convert your picture and art to ascii?</li>
-<li><span>Text Repeater</span> - A quick way to quickly repeat your text. Choose the settings and get repeating your text.</li>
-<li><span>JSON Stringify Text</span> - A handy tool to convert normal text into a JSON stringify version.</li>
+   <li><span onclick="bold()">Bold Text Converter</span> - A simple to use text converter that allows you to transform standard normal text into bolded text.</li>
+<li><span onclick="italian()">Italic Text Converter</span> - an easy and quick use italic tool to convert your text into a slant italic font. Simply copy and paste.</li>
+   <li><span onclick="underline()">Underline Text</span> - a super easy way of getting your text underlined.</li>
+<li><span onclick="mirror()">Mirror Text</span> - looking for a quick way of creating mirror text? Simply use the mirror text generator.</li>
+<li><span onclick="unicorn()">Unicode Text Converter</span> - Looking for a quick way to look at the same text in a range of different fonts? Explore this tool.</li>
+<li><span onclick="bubble()">Bubble Text Generator</span> - A quick simple tool to convert your text into a bubble text font.</li>
+<li><span onclick="sentence()">Sentence Case Generator</span> - A simple online free tool to convert your text into a sentence case format.</li>
+<li><span onclick="zalgo()">Glitch Text Converter</span> - A quick online text converter to turn your text glitchy.</li>
+<li><span onclick="invisibl()">Invisible Text</span> - Looking for a quick way of creating invisible characters? Simply use the invisible text generator.</li>
+<li><span onclick="art()">Ascii Art Generator</span> - Looking for a handy online tool that can convert your picture and art to ascii?</li>
+<li><span onclick="repeats()">Text Repeater</span> - A quick way to quickly repeat your text. Choose the settings and get repeating your text.</li>
+<li><span onclick="json()">JSON Stringify Text</span> - A handy tool to convert normal text into a JSON stringify version.</li>
            
        </ul>
        
